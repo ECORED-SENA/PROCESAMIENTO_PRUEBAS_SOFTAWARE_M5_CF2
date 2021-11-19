@@ -118,7 +118,7 @@
                 .col-lg-8
                   p.mb-0 Para afianzar su saber en lo relacionado con los elementos del contenido, estudie atentamente el #[b Anexo_1_ElementosDelContenido]. Recuerde llevar registro de los aspectos más destacados e importantes, en su libreta personal de apuntes.
                 .col-lg-4.rig_ane
-                  a.anexo.mb-4(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                  a.anexo.mb-4(:href="obtenerLink('/downloads/Elementos_del_contenido.pdf')" target="_blank")
                     .anexo__icono
                       img(src="@/assets/template/icono-pdf.svg")
                     .anexo__texto
@@ -173,7 +173,7 @@
             .col-lg-8
               p.mb-0 Conozca con mayor detalle, aspectos de suma importancia en lo relacionado con “Referencias y etiquetas”, explorando con atención el #[b Anexo_2_ReferenciasYEtiquetas].
             .col-lg-4
-              a.anexo.mb-4(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+              a.anexo.mb-4(:href="obtenerLink('/downloads/Anexo_2_RerefenciasYEtiquetas.pdf')" target="_blank")
                 .anexo__icono
                   img(src="@/assets/template/icono-pdf.svg")
                 .anexo__texto

@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: '<em>Frontend</em> con HTML5, CSS y JSS',
     descripcionCurso:
-      'Este componente formativo pretende mostrar el desarrollo web utilizando lenguajes como HTML5, CSS y JSS; explicando, además, sus funciones, componentes y semántica junto a las bondades que brinda trabajar desarrollos independientes de la parte del servidor y para el usuario, llamado <em>frontend</em>. Mostrará, también, cómo mezclando estos lenguajes se pueden crear grandes y complejos desarrollos <em>web</em>. ',
+      'Este componente formativo pretende mostrar el desarrollo <em>web</em> utilizando lenguajes como HTML5, CSS y JSS; explicando, además, sus funciones, componentes y semántica junto a las bondades que brinda trabajar desarrollos independientes de la parte del servidor y para el usuario, llamado <em>frontend</em>. Mostrará, también, cómo mezclando estos lenguajes se pueden crear grandes y complejos desarrollos <em>web</em>. ',
     imagenBannerPrincipal: require('@/assets/curso/banner-princiapal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.png'),
   },
@@ -140,139 +140,144 @@ export default {
   referencias: [
     {
       referencia:
-        'Zlackman, C. (2012). 100 años de moda. Sistema de Bibliotecas SENA:',
+        '100 Web Hosting. (s.f.). Referencia etiquetas HTML5. [Web log post]. Cafetero 100.',
+      link: 'https://www.cafetero100.com/manual-html5/',
+    },
+
+    {
+      referencia:
+        'Crea tu web creando internet. (s.f.). Estilos CSS: referencia. [Web log post]. Espaciolatino.',
+      link: 'https://creatuweb.espaciolatino.com/tutorhtml/tema17.html',
+    },
+
+    {
+      referencia:
+        'Martínez, M. (2020). 12 librerías JavaScript que deberías conocer. [Web log post]. Profile.',
+      link: 'https://profile.es/blog/librerias-javascript/',
+    },
+
+    {
+      referencia: 'Mdn web docs. (2021). File. [Web log post]. MDN Web Docs.',
+      link: 'https://developer.mozilla.org/es/docs/Web/API/File',
+    },
+
+    {
+      referencia:
+        'Mdn web docs. (2021). WebSockets. [Web log post]. MDN Web Docs.',
+      link: 'https://developer.mozilla.org/es/docs/Web/API/WebSockets_API',
+    },
+
+    {
+      referencia:
+        'Mdn web docs. (2021). Almacenamiento. [Web log post]. MDN Web Docs.',
+      link: 'https://developer.mozilla.org/es/docs/Web/API/Storage',
+    },
+
+    {
+      referencia:
+        'Nieto, I. (2003). Eventos en JavaScript. [Web log post]. Laplace.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=sena_aleph000060086&vid=SENA&search_scope=sena_completo&tab=sena_completo&lang=es_ES&context=L',
-    },
-    {
-      referencia:
-        'Castellanos, O., Fumeque A., y Ramirez D. (2011). Análisis de tendencias: de la información hacia la innovación. Universidad Nacional de Colombia. Sistema de Bibliotecas SENA:',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000007947',
-    },
-    {
-      referencia:
-        '<em>Harpersbazaar</em>. (2019). La ropa que eliges afecta a tu estado de ánimo y cerebro, según expertos. En arpersbazaar.mx.',
-    },
-    {
-      referencia:
-        'Lafuente M., Navarro J., y Navarro J. (2005). Ilustración de moda. Sistema de Bibliotecas SENA',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000025549',
-    },
-    {
-      referencia:
-        'Laver, J.,  Albizua, H., y Fortea, B. (1990). Breve historia del traje y la moda. Sistema de Bibliotecas SENA.',
-    },
-    {
-      referencia:
-        'Navarro, J.,  y Lafuente, M. (2010). Ilustración de moda: dibujo plano. Sistema de Bibliotecas SENA:',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/q6j6k0/sena_aleph000023241',
-    },
-    {
-      referencia:
-        'Áciedad Americana de Ensayos y Materiales (ASTM). (2003). Textiles. Editorial Staff. [Book]. Sistema de Bibliotecas SENA.',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000051551',
-    },
-    {
-      referencia:
-        'Szkutnicka, B., Cuenca, C., Koyama, A. (2010). El dibujo técnico de moda paso a paso. Sistema de Bibliotecas SENA.',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000057728',
+        'http://laplace.ucv.cl/Cursos/Old/FisComputacional/javascript/Tutorial/javascript5.html',
     },
   ],
   glosario: [
     {
-      termino: 'MoodBoard',
+      termino: 'API',
       significado:
-        'su traducción literal es mapa de inspiración y aunque su uso está muy asociado al ámbito de la decoración de interiores o la moda, <br/>realmente se utiliza en entornos creativos muy diversos, desde el diseño de productos o servicios al audiovisual o el diseño gráfico.',
+        'conjunto de definiciones y protocolos que se utilizan para desarrollar e integrar el <em>software</em> de las aplicaciones. API significa interfaz de programación de aplicaciones. Las API permiten que sus productos y servicios se comuniquen con otros, sin necesidad de saber cómo están implementados.',
     },
     {
-      termino: '<em>Suftware</em>',
+      termino: 'Aplicación',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'programa informático diseñado como una herramienta para realizar operaciones o funciones específicas. Generalmente, son diseñadas para facilitar ciertas tareas complejas y hacer más sencilla la experiencia informática de las personas.',
     },
     {
-      termino: 'Pirognóstico',
+      termino: 'Base de datos',
       significado:
-        'ensayo sin componentes reactivos, quiere decir, reconocimiento de los componentes, mediante la aplicación adecuada del fuego.',
+        'recopilación organizada de información o datos estructurados, que normalmente se almacena de forma electrónica en un sistema informático.',
     },
     {
-      termino: '<em>Áectores</em>',
+      termino: 'Browser',
+      terminoHtml: '<em>Browser</em>',
       significado:
-        'en software de diseño, son líneas que se crean y permiten, expandir, modificar, al tamaño que sea sin pixelarse porque se unen por coordenadas matemáticas del programa y no se generan por números fijos.',
+        'término inglés que se utiliza para identificar a un navegador <em>web</em> o navegador de Internet. Consiste en un <em>software</em>, programa o incluso aplicación, que ofrece al usuario el acceso a la red.',
     },
     {
-      termino: 'Moda',
+      termino: 'Depurar',
       significado:
-        'hábito repetitivo que identifica a una persona, una especie de presión social, que debe consumir, utilizar o hacer.',
+        'quitar de una cosa lo malo, lo que es extraño o lo que no sirve para dejarla pura.',
     },
     {
-      termino: 'Diseña',
+      termino: 'Geolocalización',
       significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
+        'identificación de la ubicación geográfica a partir de un dispositivo conectado a internet. Existen muchas tecnologías aptas para determinar la geolocalización de una persona',
     },
     {
-      termino: 'DIseño',
+      termino: 'Icono',
       significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
+        'signo que representa un objeto o una idea con los que guarda una relación de identidad o semejanza formal',
     },
     {
-      termino: 'Tipología',
+      termino: 'Interfaz',
       significado:
-        'estudio de los tipos o modelos que se usan para clasificar en diversas ciencias o disciplinas.',
+        'se designa, en informática, la conexión física y funcional que se establece entre dos aparatos, dispositivos o sistemas que funcionan independientemente uno del otro. En este sentido, la comunicación entre un ser humano y una computadora se realiza por medio de una interfaz.',
     },
     {
-      termino: 'Bidimensional',
+      termino: 'Servidor',
       significado:
-        'que se representa según su altura y su anchura y no su profundidad.',
+        'conjunto de computadoras capaz de atender las peticiones de un cliente y devolverle una respuesta en concordancia.',
     },
     {
-      termino: 'Interés Inferior del menor',
+      termino: 'Sintáctico',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'análisis de las funciones sintácticas o relaciones de concordancia y jerarquía que guardan las palabras cuando se agrupan entre sí en forma de sintagmas',
     },
     {
-      termino: 'Interseccionalidad',
+      termino: 'Sintaxis',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'parte de la gramática que estudia el modo en que se combinan las palabras y los grupos que estas forman para expresar significados, así como las relaciones que se establecen entre todas esas unidades.',
     },
     {
-      termino: 'Interés superior del menor',
+      termino: 'Sitio web',
+      terminoHtml: 'Sitio <em>web</em>',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'conjunto de páginas <em>web</em> accesibles a través de internet, convenientemente enlazadas y con una finalidad concreta.',
+    },
+    {
+      termino: 'Web',
+      terminoHtml: '<em>Web</em>',
+      significado:
+        'conjunto de información que se encuentra en una dirección determinada de internet.',
     },
   ],
   complementario: [
     {
-      texto:
-        'BIC., (2015). “2 minutos para entender el desarrollo sostenible – Spanish”',
-      tipo: 'Video',
-      link: 'https://www.google.com/',
+      texto: 'Fazt. (2018). Curso HTML para principiantes. [Video]. Youtube.',
+      tipo: 'Video youtube',
+      link: 'https://www.youtube.com/embed/rbuYtrNUxg4',
+    },
+    {
+      texto: 'Fazt. (2018). Curso CSS para principiantes. [Video]. Youtube. ',
+      tipo: 'Video youtube',
+      link: 'https://www.youtube.com/embed/W6GTDfrWjXs',
     },
     {
       texto:
-        'Arnold, M. y Osorio, F., (1998). Introducción a los conceptos básicos de la Teoría general de sistemas. Cinta moebio 3: 40-49',
-      tipo: 'Página web',
-      descarga: '/downloads/prueba.pdf',
+        'Fazt. (2018). Curso Javascript para principiantes. [Video]. Youtube. ',
+      tipo: 'Video youtube',
+      link: 'https://www.youtube.com/embed/RqQ1d1qEWlE',
     },
     {
       texto:
-        'Balboa, C. y Dominguez, M. (2014). Economía circular como marco para el ecodiseño: el modelo ECO-3. Informador Técnico (Colombia) Volumen 78, No. 1. Pág. 52-90.',
-      tipo: 'Artículo científico',
-      link: 'https://www.google.com/',
+        'Codificándolo. (2021). Como consumir una API en JavaScript. [Video]. Youtube. ',
+      tipo: 'Video youtube',
+      link: 'https://www.youtube.com/embed/a2cQ7YLyjzE',
     },
     {
-      texto: 'Economía de Rosquilla. (s.f.).',
-      tipo: 'Página web',
-      descarga: ['/downloads/prueba.pdf', '/downloads/prueba.pdf'],
-    },
-    {
-      texto: '2 minutos para entender el desarrollo sostenible – Spanish',
-      tipo: 'Video',
-      link: ['https://www.google.com/', 'https://www.google.com/'],
+      texto:
+        'Bernardez, R. (2015). Sácale chispas a Chrome Developer Tools (DevTools). [Video]. Youtube. ',
+      tipo: 'Video youtube',
+      link: 'https://www.youtube.com/embed/xBXYIs4-xJE',
     },
   ],
   creditos: {
@@ -288,7 +293,28 @@ export default {
         nombre: 'Rafael Neftalí Lizcano Reyes',
         cargo: 'Asesor metodológico y pedagógico',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'David Eduardo Lozada Cerón',
+        cargo: 'Experto Temático',
+        centro:
+          'Centro de Teleinformática y Producción Industrial - Regional Cauca',
+      },
+      {
+        nombre: 'Fabián Leonardo Correa Díaz',
+        cargo: 'Diseñador Instruccional',
+        centro: 'Centro agropecuario La Granja - Regional Tolima',
+      },
+      {
+        nombre: 'Silvia Milena Sequeda Cárdenas',
+        cargo: 'Evaluadora instruccional',
+        centro: 'Centro de la gestión industrial - Distrito capital',
+      },
+      {
+        nombre: 'José Gabriel Ortiz Abella',
+        cargo: 'Corrector de estilo',
+        centro: 'Centro de la gestión industrial - Distrito capital',
       },
     ],
     desarrolloProducto: [
@@ -296,43 +322,49 @@ export default {
         nombre: 'Francisco José Lizcano Reyes',
         cargo: 'Responsable del equipo',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
         nombre: 'Leyson Fabian Castaño Perez',
         cargo: 'Soporte organizacional',
-        centro: 'Centro de Comercio y Servicios Regional Tolima',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
       },
       {
         nombre: ['Nombre 1', 'Nombre 2'],
         cargo: 'Diseño web',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
-        cargo: 'Desarrollo Front-End',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
-      },
-      {
-        nombre: 'Nombre',
+        nombre: 'Oscar Ivan Uribe Ortiz',
         cargo: 'Producción audiovisual',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Andres Mauricio Santaella Ochoa',
+        cargo: 'Soporte front-end',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Ricardo Alfonso González Vargas',
+        cargo: 'Desarrollo front-end',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
         nombre: 'Nombre',
         cargo: 'Validación de diseño y contenido',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
     ],
     gestoresRepositorio: [
       {
         nombre: 'Milady Tatiana Villamil Castellanos',
         cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios Regional Tolima',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
       },
     ],
   },

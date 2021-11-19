@@ -38,7 +38,7 @@
             .col-lg-8
               p.mb-0 Explore el Anexo_3_ReferenciasDeEstilosYPropiedadesCSS3 y encuentre allí los estilos de uso más frecuente, en la asignación de formato en la creación de páginas web.
             .col-lg-4
-              a.anexo(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+              a.anexo(:href="obtenerLink('/downloads/Anexo_3_ReferenciasDeEstilosYPropiedadesCSS3.pdf')" target="_blank")
                 .anexo__icono
                   img(src="@/assets/template/icono-pdf.svg")
                 .anexo__texto

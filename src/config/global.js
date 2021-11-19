@@ -74,6 +74,34 @@ export default {
           },
         ],
       },
+      {
+        nombreRuta: 'tema4',
+        icono: 'far fa-file-alt',
+        numero: '4',
+        titulo: 'JavaScript',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '4.1',
+            titulo: 'API',
+            hash: 't_4_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '4.2',
+            titulo: 'Librerías',
+            hash: 't_4_2',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema5',
+        icono: 'far fa-file-alt',
+        numero: '5',
+        titulo: 'Pruebas y depuración de código',
+        desarrolloContenidos: true,
+      },
     ],
     subMenu: [
       {

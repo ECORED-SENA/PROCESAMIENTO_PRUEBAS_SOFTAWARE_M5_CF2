@@ -34,7 +34,7 @@
 
               .row(numero="4" titulo="&lt;body&gt;")
                 .col-lg-12
-                  p.text-small Esta etiqueta permite encapsular todo el contenido que se va a mostrar en el documento HTML.<br><br> Con estas etiquetas ya es posible construir el primer documento estructurado en HTML. A excepción de la primera etiqueta <!DOCTYPE>, todas tienen una etiqueta de apertura y otra de cierre.
+                  p.text-small Esta etiqueta permite encapsular todo el contenido que se va a mostrar en el documento HTML.<br><br> Con estas etiquetas ya es posible construir el primer documento estructurado en HTML. A excepción de la primera etiqueta &lt;!DOCTYPE&gt;, todas tienen una etiqueta de apertura y otra de cierre.
                   .row.justify-content-center
                     .col-lg-6
                       img.img-a.mt-4(src='@/assets/curso/tema_2/img_6.png', alt='Texto que describa la imagen')

@@ -7,16 +7,16 @@
         span 5
       h1 Pruebas y depuración de código
 
-    .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mb-4
-      .bloque-texto-g__img(
+    .bloque-texto-h.color-secundario.p-3.p-sm-4.p-md-5.mb-4(data-aos="flip-up")
+      .bloque-texto-h__img(
         :style="{'background-image': `url(${require('@/assets/curso/tema_4/img_18.png')})`}"
       )
-      .bloque-texto-g__texto.p-4
+      .bloque-texto-h__texto.p-4
         p.mb-0 En el desarrollo tienen mucha importancia las pruebas de desarrollador que están orientadas a prueba y error, cada vez que se va escribiendo cualquier código, pues cada lenguaje de programación tiene su validador de sintaxis. Además, las herramientas para la depuración son diferentes y son utilizadas según las preferencias del desarrollador.
 
-    p.mb-5 En este punto del componente formativo, se estudiarán los depuradores para aplicaciones, sitios y páginas web mediante el recurso que se propone a continuación:
+    p.mb-5(data-aos="flip-up") En este punto del componente formativo, se estudiarán los depuradores para aplicaciones, sitios y páginas web mediante el recurso que se propone a continuación:
 
-    figure
+    figure(data-aos="flip-up")
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 

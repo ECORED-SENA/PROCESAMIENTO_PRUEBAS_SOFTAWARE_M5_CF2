@@ -10,17 +10,17 @@
     .row.bg_03
       .col-lg-12.px-5.py-4
         .row.z-i
-          .col-lg-12(data-aos="slide-left")
+          .col-lg-12(data-aos="flip-up")
             img.img-a.mt-5(src='@/assets/curso/tema_2/img_2.png', alt='Texto que describa la imagen')
         .row.justify-content-center.mb-5
           .col-lg-8
             .bg_04.p-5
               p.mt-5.mb-0 Los documentos HTML son estructuras de código estrictamente organizadas, allí se utilizan etiquetas en donde se puede declarar y determinar la forma específica del funcionamiento o apariencia del contenido.
-        .row.justify-content-center.mb-5
+        .row.justify-content-center.mb-5(data-aos="flip-up")
           .col-lg-7
             p.text-center En este punto del componente formativo, se indica cómo se construye la estructura global de un documento HTML, en el recurso que se muestra a continuación:
 
-        .row.justify-content-center.mb-5
+        .row.justify-content-center.mb-5(data-aos="flip-up")
           .col-lg-8
             LineaTiempoD.linea-tiempo-d.mb-5
               p.text-small(numero="1" titulo="&lt;!DOCTYPE&gt;") Se utiliza, inicialmente, para indicar qué tipo de documento es el que tiene que interpretarse o crearse, en este caso HTML. 
@@ -52,27 +52,27 @@
               .row.text-small(numero="7" titulo="&lt;link&gt;") 
                 p Esta etiqueta permite agregar estilo css y código javascript.
 
-            .row
+            .row(data-aos="slide-left")
               .col-lg-5
                 img.img-a(src='@/assets/curso/tema_2/img_9.png', alt='Texto que describa la imagen')
 
             .row.bg_5.p-4
               .col-lg-5
 
-              .col-lg-7
+              .col-lg-7(data-aos="slide-right")
                 p Tenga presente que las etiquetas &lt;meta&gt; &lt;title&gt; y &lt;link&gt; permiten mostrar contenidos más específicos o permiten crear comportamientos en el documento.
 
     separador
     #t_2_1.titulo-segundo(data-aos="flip-up").mb-4
       .h2 2.1 Estructura del cuerpo de una página #[i web]
 
-    .cajon.color-primario.p-4.mb-4
+    .cajon.color-primario.p-4.mb-4(data-aos="slide-right")
       p.mb-0 La estructura del cuerpo no es más que la estructura que se crea dentro del body; normalmente se le denomina plantilla, y de esta forma es posible mostrar, organizadamente y por secciones, la información que llegará al usuario.
 
-    p.mb-5 En HTML se utilizan algunos elementos para crear la estructura dentro de body, el elemento utilizado inicialmente para crear esta estructura era la etiqueta &lt;table&gt;, la que permite al desarrollador organizar la información, utilizando filas y columnas para mostrar y organizar información como: imágenes, textos y otros elementos, logrando que el usuario tenga una mejor experiencia visual y no se pierda entre los contenidos.
+    p.mb-5(data-aos="slide-left") En HTML se utilizan algunos elementos para crear la estructura dentro de body, el elemento utilizado inicialmente para crear esta estructura era la etiqueta &lt;table&gt;, la que permite al desarrollador organizar la información, utilizando filas y columnas para mostrar y organizar información como: imágenes, textos y otros elementos, logrando que el usuario tenga una mejor experiencia visual y no se pierda entre los contenidos.
 
     .row.justify-content-center.mb-5
-      .col-sm-6.col-xl-6.mb-4.mb-xl-0
+      .col-sm-6.col-xl-6.mb-4.mb-xl-0(data-aos="slide-left")
         .tarjeta.tarjeta-flip.color-secundario.bg_6(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
@@ -81,7 +81,7 @@
               img.img-a.mb-3(src='@/assets/curso/tema_2/img_12.png', alt='Texto que describa la imagen')
               p.mb-0 La etiqueta &lt;div&gt; llegó para reemplazar la etiqueta &lt;table&gt; al momento de crear esta estructura. Esta etiqueta lo que hace es separar el cuerpo funcionando como la celda de una tabla, es más fácil de implementar y se utiliza menos código para crear la estructura.
 
-      .col-sm-6.col-xl-6.mb-4.mb-xl-0
+      .col-sm-6.col-xl-6.mb-4.mb-xl-0(data-aos="slide-right")
         .tarjeta.tarjeta-flip.color-secundario(@mouseover="indicadorTarjetaFlip = false")
           .tarjeta-flip__contenedor
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema_2/img_11.svg')})`}")
@@ -90,10 +90,10 @@
               p.mb-0 La forma establecer qué elemento utilizar para la estructura, depende de cada desarrollador, teniendo en cuenta las bondades y la necesidad de lo que se quiera mostrar, en pantalla, al usuario.
 
     .row.justify-content-center.mb-5
-      .col-lg-10
+      .col-lg-10(data-aos="flip-up")
         p.mb-5 A continuación, se muestran algunas estructuras del #[strong body] que normalmente se utilizan y se identifican, al momento de ingresar a un sitio #[i web] o a una aplicación #[i web]; se debe tener presente que estas estructuras pueden variar, según el diseñador #[i web], pero, normalmente, se siguen algunos estándares:
 
-        SlyderC.mb-5(:datos="datosSlyder")
+        SlyderC.mb-5(:datos="datosSlyder")(data-aos="flip-up")
 
     .row.z-i
       .col-lg-4.z-i
@@ -101,7 +101,7 @@
 
     .row.justify-content-center
       .col-lg-4
-      .col-lg-8.p_top1
+      .col-lg-8.p_top1(data-aos="slide-right")
         .row
           .col-lg-6
             hr.hr1.mt-0
@@ -114,7 +114,7 @@
           .row.bg_7.py-4.px-0
             .col-lg-3
             .col-lg-8
-              .row.align-items-center
+              .row.align-items-center(data-aos="slide-left")
                 .col-lg-8
                   p.mb-0 Para afianzar su saber en lo relacionado con los elementos del contenido, estudie atentamente el #[b Anexo_1_ElementosDelContenido]. Recuerde llevar registro de los aspectos más destacados e importantes, en su libreta personal de apuntes.
                 .col-lg-4.rig_ane
@@ -128,11 +128,11 @@
     #t_2_2.titulo-segundo(data-aos="flip-up").mb-4
       .h2 2.2  Nuevos elementos HTML5
 
-    p En respuesta a la normal evolución de los sistemas informáticos y la necesidad permanente de mejorar las funcionalidades de desarrollo y la experiencia de usuario, se ha seguido actualizando el código #[b HTML].
+    p(data-aos="slide-left") En respuesta a la normal evolución de los sistemas informáticos y la necesidad permanente de mejorar las funcionalidades de desarrollo y la experiencia de usuario, se ha seguido actualizando el código #[b HTML].
 
-    p.mb-5 Se invita a conocer algunas funcionalidades y beneficios de #[b HTML5], con respecto a multimedia, estudiando atentamente el recurso que se muestra a continuación:
+    p.mb-5(data-aos="slide-right") Se invita a conocer algunas funcionalidades y beneficios de #[b HTML5], con respecto a multimedia, estudiando atentamente el recurso que se muestra a continuación:
 
-    TabsB.color-acento-botones.mb-5
+    TabsB.color-acento-botones.mb-5(data-aos="flip-up")
       .py-4.py-md-5.bg_08(titulo="Video" :icono="require('@/assets/curso/tema_2/img_20.svg')")
         .row.p-5
           .col-md-12.mb-4.mb-md-0
@@ -170,9 +170,9 @@
       .col-lg-10
         .bg_7.p-4.p_top3.mb-5
           .row.align-items-center.mt-5 
-            .col-lg-8
+            .col-lg-8(data-aos="slide-left")
               p.mb-0 Conozca con mayor detalle, aspectos de suma importancia en lo relacionado con “Referencias y etiquetas”, explorando con atención el #[b Anexo_2_ReferenciasYEtiquetas].
-            .col-lg-4
+            .col-lg-4(data-aos="slide-right")
               a.anexo.mb-4(:href="obtenerLink('/downloads/Anexo_2_RerefenciasYEtiquetas.pdf')" target="_blank")
                 .anexo__icono
                   img(src="@/assets/template/icono-pdf.svg")
@@ -180,9 +180,9 @@
                   h5.mb-0 Descargar
         
         .row.align-items-center
-            .col-lg-8
+            .col-lg-8(data-aos="slide-left")
               p.mb-0 Si desea encontrar y conocer con mayor detalle, un compendio de las etiquetas completas y actualizadas, visite y explore el enlace que aquí se propone.
-            .col-lg-4
+            .col-lg-4(data-aos="slide-right")
               a.anexo.mb-4(href="https://developer.mozilla.org/es/docs/Web/HTML" target="_blank")
                 .anexo__icono
                   img(src="@/assets/template/icono-link.svg")

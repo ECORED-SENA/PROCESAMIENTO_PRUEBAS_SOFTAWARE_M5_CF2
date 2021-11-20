@@ -9,7 +9,7 @@
 
     .row.bg_03
       .col-lg-12.px-5.py-4
-        .row.align-items-center.bg_10.mb-5.mt-5
+        .row.align-items-center.bg_10.mb-5.mt-5(data-aos="flip-up")
           .col-lg-4.p-0
             img.img-a(src='@/assets/curso/tema_4/img_1.png', alt='Texto que describa la imagen')
           .col-lg-8.p-4
@@ -17,38 +17,38 @@
 
             p Es momento de profundizar en los elementos de empleo del JavaScript; para ello, explore se sugiere conscientemente el recurso que se presenta, procurando llevar registro de los aspectos más destacados en la libreta personal de apuntes:
    
-        .titulo-quinto.color-primario
+        .titulo-quinto.color-primario(data-aos="flip-up")
           h4 Empleo de JavaScript
 
-        p JavaScript se utiliza, normalmente, en la web pero también para:
+        p(data-aos="flip-up") JavaScript se utiliza, normalmente, en la web pero también para:
 
         ol.lista-ol--cuadro
-          li 
+          li(data-aos="slide-right") 
             .lista-ol--cuadro__vineta
               span 1
             span Desarrollo de todo el backend de una aplicación, programando con #[b Node. js], que sigue siendo JavaScript.
-          li 
+          li(data-aos="slide-left") 
             .lista-ol--cuadro__vineta
               span 2
             | Sistemas operativos.
-          li 
+          li(data-aos="slide-right") 
             .lista-ol--cuadro__vineta
               span 3
             | Servidores de internet.
-          li 
+          li(data-aos="slide-left") 
             .lista-ol--cuadro__vineta
               span 4
             | Bases de datos.
-          li 
+          li(data-aos="slide-right")  
             .lista-ol--cuadro__vineta
               span 5
             | Plataformas de juego.
-          li 
+          li(data-aos="slide-left") 
             .lista-ol--cuadro__vineta
               span 6
             p Desarrollo  <strong> móvil.Este</strong>
 
-    AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--azul")
+    AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--azul")(data-aos="flip-up")
       .row.justify-content-center(titulo="Selectores")
         .col-lg-10
           p Los selectores funcionan de forma muy similar a los del CSS y permite seleccionar y encontrar elementos dentro del HTML.
@@ -73,7 +73,7 @@
 
     .row
       .col-lg-12.bg_11.p-4
-        .row.justify-content-center.mb-5
+        .row.justify-content-center.mb-5(data-aos="flip-up")
           .col-sm-6.col-xl-5.mb-4.mb-xl-0
             .tarjeta.tarjeta-flip.bg_12(@mouseover="indicadorTarjetaFlip = false")
               .indicador--hover(v-if="indicadorTarjetaFlip")
@@ -82,7 +82,7 @@
                 .tarjeta-flip__contenido.p-4.p-xl-5
                   p.text-center.mt-5 En esta tabla se especifican los eventos que pueden utilizarse #[b ¡Conózcalos!]
 
-        .row.justify-content-center
+        .row.justify-content-center(data-aos="flip-up")
           .col-lg-10
             .titulo-sexto.color-acento-contenido
               h5 Tabla 1
@@ -150,13 +150,13 @@
     #t_4_1.titulo-segundo(data-aos="flip-up").mb-4
       .h2 4.1  API
 
-    p.mb-5 Las API #[b (Interfaces de Programación de Aplicaciones)], son aplicaciones que crean los desarrolladores para, a su vez, crear funcionalidades de forma más sencilla y rápida. 
+    p.mb-5(data-aos="flip-up") Las API #[b (Interfaces de Programación de Aplicaciones)], son aplicaciones que crean los desarrolladores para, a su vez, crear funcionalidades de forma más sencilla y rápida. 
 
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-5(data-aos="flip-up")
       .col-lg-6.bg_13.p-2
         p.text-center.mb-0 A continuación, se presentan algunos tipos de API:
 
-    LineaTiempoD.linea-tiempo-d.mb-5
+    LineaTiempoD.linea-tiempo-d.mb-5(data-aos="flip-up")
       p.text-small(numero="1" titulo="Geolocation") API sencilla que consiste en utilizar objetos sencillos. Contiene tres métodos para el control y recuperación de datos geográficos.
         img.img-a.mt-4(src='@/assets/curso/tema_4/img_8.png', alt='Texto que describa la imagen')
       
@@ -190,16 +190,16 @@
         .row.justify-content-center
           .col-lg-10
             .row.align-items-center.mb-5
-              .col-lg-4
+              .col-lg-4(data-aos="slide-left") 
                 img.img-a(src='@/assets/curso/tema_4/img_17.png', alt='Texto que describa la imagen')
-              .col-lg-8 
+              .col-lg-8(data-aos="slide-right")  
                 p Las librerías JavaScript son códigos reutilizables que permiten que los desarrolladores no tengan que preocuparse en desarrollar las cosas desde cero, lo cual hace más ágil el desarrollo.
 
                 p En la siguiente tabla, se exponen las librerías más comunes y frecuentemente usadas por los desarrolladores:
     .row.bg_14
       .col-lg-12
         .row.justify-content-center
-          .col-lg-11
+          .col-lg-11(data-aos="flip-up")
             .titulo-sexto.color-acento-contenido
               h5 Tabla 2
               span Librerías

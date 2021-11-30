@@ -16,7 +16,7 @@
 
     figure.mb-5(data-aos="flip-up")
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/K8rKvo31x24" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
     separador
     #t_3_1.titulo-segundo(data-aos="flip-up").mb-4
@@ -27,18 +27,22 @@
         .cajon.color-primario.p-4
           p.mb-0 Con relación a las referencias de estilos, existe una guía básica de estilos muy comunes y más utilizados, con los que se puede dar formato a las distintas páginas web.
 
-    .row.mb-5(data-aos="slide-right")
+    .row.mb-5(data-aos="slide-right").d-none.d-lg-block
       .col-lg-12.z-i
         img.img-a.im_top1(src='@/assets/curso/tema_3/img_2.png', alt='Texto que describa la imagen')
 
-    .row.align-items-center
+    .row.mb-5(data-aos="slide-right").d-block.d-lg-none
+      .col-lg-12.z-i
+        img.img-a(src='@/assets/curso/tema_3/img_2.png', alt='Texto que describa la imagen')
+
+    .row.align-items-center.justifi-content-center
       .col-lg-8
         .bg_7.p-4
           .row.align-items-center
             .col-lg-8(data-aos="slide-left")
               p.mb-0 Explore el Anexo_3_ReferenciasDeEstilosYPropiedadesCSS3 y encuentre allí los estilos de uso más frecuente, en la asignación de formato en la creación de páginas web.
             .col-lg-4(data-aos="slide-right")
-              a.anexo(:href="obtenerLink('/downloads/Anexo_3_ReferenciasDeEstilosYPropiedadesCSS3.pdf')" target="_blank")
+              a.anexo.mt-4(:href="obtenerLink('/downloads/Anexo_3_ReferenciasDeEstilosYPropiedadesCSS3.pdf')" target="_blank")
                 .anexo__icono
                   img(src="@/assets/template/icono-pdf.svg")
                 .anexo__texto
@@ -48,14 +52,14 @@
           .col-lg-8(data-aos="slide-left")
             p.mb-0 Todos los elementos de estilo actualizados pueden ser encontrados, navegando el siguiente enlace:
           .col-lg-4(data-aos="slide-right")
-            a.anexo(href="https://developer.mozilla.org/es/docs/Web/CSS" target="_blank")
+            a.anexo.mt-4(href="https://developer.mozilla.org/es/docs/Web/CSS" target="_blank")
               .anexo__icono
                 img(src="@/assets/template/icono-link.svg")
               .anexo__texto
                 h5.mb-0 Enlace web
         
-      .col-lg-4(data-aos="slide-left")
-        img.img-a(src='@/assets/curso/tema_3/img_3.png', alt='Texto que describa la imagen')
+      .col-lg-3.mt-4(data-aos="slide-left")
+        img(src='@/assets/curso/tema_3/img_3.png', alt='Texto que describa la imagen')
 
     separador
     #t_3_2.titulo-segundo(data-aos="flip-up").mb-4
@@ -67,7 +71,7 @@
       .col-lg-12.bg_01
         figure.mb-5(data-aos="flip-up")
           .video
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/lCqL82tsvUY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
 </template>
 

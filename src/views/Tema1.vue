@@ -16,7 +16,7 @@
 
     .row.justify-content-center.mb-5(data-aos="flip-up")
       .col-lg-8
-        p.text-center Estas tecnologías son HTTP (Hypertext Transfer Protocol), CSS (Cascading Style Sheets) y JavaScript, respectivamente. Las dos primeras serán el objeto principal de estudio de esta unidad temática, las que se explican a continuación:
+        p.text-center Estas tecnologías son #[b HTTP] (#[i Hypertext Transfer Protocol]), #[b CSS] (#[i Cascading Style Sheets]) y #[b JavaScript], respectivamente. Las dos primeras serán el objeto principal de estudio de esta unidad temática, las que se explican a continuación:
 
     .row
       .col-lg-12.bg_01
@@ -28,7 +28,7 @@
                   .col-8
                     img(src='@/assets/curso/tema_1/img_3.svg' alt='AvatarTop')
                 h5 HTML (documentos)
-                p Las aplicaciones o sitios #[i web] están compuestos, principalmente, por varios documentos HTML, estos documentos cuentan con una estructura escrita por etiquetas, que permiten que el browser lo interprete y muestre lo que, normalmente, se ve al momento de acceder a una página #[i web], portal #[i web], sitio #[i web] o aplicación #[i web].
+                p Las aplicaciones o sitios #[i web] están compuestos, principalmente, por varios documentos HTML, estos documentos cuentan con una estructura escrita por etiquetas, que permiten que el #[i browser] lo interprete y muestre lo que, normalmente, se ve al momento de acceder a una página #[i web], portal #[i web], sitio #[i web] o aplicación #[i web].
 
 
               .tarjeta.bg_02.p-4
@@ -36,7 +36,7 @@
                   .col-8
                     img(src='@/assets/curso/tema_1/img_4.svg' alt='AvatarTop')
                 h5 HTML (interpretación del navegador)
-                p Para que el browser o navegador de Internet (Mozilla, Explorer (Edge), Chrome... etc.) interprete estos documentos, debe guardarse con la extensión .HTML, por ejemplo miPagina.html
+                p Para que el #[i browser] o navegador de Internet (Mozilla, Explorer (Edge), Chrome... etc.) interprete estos documentos, debe guardarse con la extensión .HTML, por ejemplo miPagina.html
 
               .tarjeta.bg_02.p-4
                 .row.justify-content-center.mb-5.mt-4
@@ -57,7 +57,7 @@
                   .col-8
                     img(src='@/assets/curso/tema_1/img_7.svg' alt='AvatarTop')
                 h5 HTML (estructura de las etiquetas)
-                p Etiqueta de apertura &lt;html&gt; y etiqueta de cierre &lt;/html&gt;. Nótese que la etiqueta de cierre siempre lleva un carácter especial ( / ), de esta forma, el browser lee el contenido entre las etiquetas y lo muestra al usuario mediante el browser.
+                p Etiqueta de apertura #[b &lt;html&gt;] y etiqueta de cierre #[b &lt;/html&gt;]. Nótese que la etiqueta de cierre siempre lleva un carácter especial #[b ( / )], de esta forma, el #[i browser] lee el contenido entre las etiquetas y lo muestra al usuario mediante el #[i browser].
 
 
     

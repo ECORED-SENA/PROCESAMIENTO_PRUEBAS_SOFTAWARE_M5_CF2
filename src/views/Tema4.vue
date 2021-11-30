@@ -26,7 +26,7 @@
           li(data-aos="slide-right") 
             .lista-ol--cuadro__vineta
               span 1
-            span Desarrollo de todo el backend de una aplicación, programando con #[b Node. js], que sigue siendo JavaScript.
+            span Desarrollo de todo el #[i backend] de una aplicación, programando con #[b Node.js], que sigue siendo JavaScript.
           li(data-aos="slide-left") 
             .lista-ol--cuadro__vineta
               span 2
@@ -46,7 +46,7 @@
           li(data-aos="slide-left") 
             .lista-ol--cuadro__vineta
               span 6
-            p Desarrollo  <strong> móvil.Este</strong>
+            p Desarrollo  <strong> móvil.</strong>
 
     AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--azul")(data-aos="flip-up")
       .row.justify-content-center(titulo="Selectores")
@@ -56,31 +56,37 @@
 
       .row.justify-content-center(titulo="Selectores (clase o tipo)")
         .col-lg-10
-          p El selector se puede utilizar buscando por la clase o por el tipo.
+          p El selector se puede utilizar buscando por la #[b clase] o por el #[b tipo].
           img.img-a(src='@/assets/curso/tema_4/img_5.png', alt='Texto que describa la imagen')
 
       .row.justify-content-center(titulo="Eventos")
         .col-lg-10
-          p.mb-4 La interacción del usuario con una aplicación, página o sitio web se establece como evento; por lo tanto, un evento es una acción que el usuario quiere hacer en determinada parte de la aplicación. Por ejemplo, darle clic a un botón o cambiar un valor de un elemento de texto, entre otros.
+          .row.align-items-center.justify-content-center
+            .col-lg-4
+              img.img-a(src='@/assets/curso/tema_4/img_19.png', alt='Texto que describa la imagen')
+            .col-lg-6
+              p.mb-4 La interacción del usuario con una aplicación, página o sitio web se establece como evento; por lo tanto, un evento es una acción que el usuario quiere hacer en determinada parte de la aplicación. Por ejemplo, darle clic a un botón o cambiar un valor de un elemento de texto, entre otros.
 
-          .cajon.color-secundario.p-4
-            p.mb-0 Estas acciones se capturan mediante manejadores de eventos ya establecidos y se programan mediante funciones en JavaScript.
+              .cajon.color-secundario.p-4
+                p.mb-0 Estas acciones se capturan mediante manejadores de eventos ya establecidos y se programan mediante funciones en #[b JavaScript].
 
       .row.justify-content-center(titulo="Ejemplo de funcionamiento")
         .col-lg-10
           p Este es un ejemplo práctico de cómo funciona un evento. En el momento en que el cursor esté en el campo de texto, automáticamente arroja la alerta.
-          img.img-a(src='@/assets/curso/tema_4/img_6.png', alt='Texto que describa la imagen')
+          img.img-a(src='@/assets/curso/tema_4/img_6.svg', alt='Texto que describa la imagen')
+
 
     .row
       .col-lg-12.bg_11.p-4
-        .row.justify-content-center.mb-5(data-aos="flip-up")
-          .col-sm-6.col-xl-5.mb-4.mb-xl-0
-            .tarjeta.tarjeta-flip.bg_12(@mouseover="indicadorTarjetaFlip = false")
+        .row.justify-content-center.mb-5
+          .col-sm-6.col-xl-5.mb-4.mb-xl-0(data-aos="slide-left")
+            .tarjeta.tarjeta-flip.color-secundario.bg_6(@mouseover="indicadorTarjetaFlip = false")
               .indicador--hover(v-if="indicadorTarjetaFlip")
               .tarjeta-flip__contenedor
                 .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema_2/img_10.svg')})`}")
                 .tarjeta-flip__contenido.p-4.p-xl-5
-                  p.text-center.mt-5 En esta tabla se especifican los eventos que pueden utilizarse #[b ¡Conózcalos!]
+                  img.img-a.mb-3(src='@/assets/curso/tema_2/img_12.png', alt='Texto que describa la imagen')
+                  p.mb-0.text-center En esta tabla se especifican los eventos que pueden utilizarse.#[br] #[b ¡Conózcalos!]
 
         .row.justify-content-center(data-aos="flip-up")
           .col-lg-10
@@ -91,9 +97,27 @@
             table
               thead
                 tr.bg_the.text-center
-                  th Evento
+                  th.tabl_anc Evento
                   th Se ejecuta cuando
               tbody
+                tr.bg_td
+                  td onAbort	
+                  td El usuario interrumpe la carga de una imagen.
+                tr.bg_td1
+                  td onBlur	
+                  td Un elemento de formulario, una ventana o un marco pierden el foco.
+                tr.bg_td
+                  td onChange	
+                  td El valor de un campo de formulario cambia.
+                tr.bg_td1
+                  td onClick	
+                  td Se hace clic en un objeto o formulario.
+                tr.bg_td
+                  td onDblClick	
+                  td Se hace doble clic en un objeto o formulario.
+                tr.bg_td1
+                  td onDragDrop	
+                  td El usuario arrastra y suelta un objeto en la ventana.
                 tr.bg_td
                   td onError	
                   td La carga de un documento o imagen produce un error.
@@ -154,31 +178,31 @@
 
     .row.justify-content-center.mb-5(data-aos="flip-up")
       .col-lg-6.bg_13.p-2
-        p.text-center.mb-0 A continuación, se presentan algunos tipos de API:
+        p.text-center.mb-0 A continuación, se presentan algunos tipos de #[b API]:
 
     LineaTiempoD.linea-tiempo-d.mb-5(data-aos="flip-up")
-      p.text-small(numero="1" titulo="Geolocation") API sencilla que consiste en utilizar objetos sencillos. Contiene tres métodos para el control y recuperación de datos geográficos.
+      p(numero="1" titulo="<i>Geolocation</i>") API sencilla que consiste en utilizar objetos sencillos. Contiene tres métodos para el control y recuperación de datos geográficos.
         img.img-a.mt-4(src='@/assets/curso/tema_4/img_8.png', alt='Texto que describa la imagen')
       
-      p.text-small(numero="2" titulo="Position") Presenta la ubicación de un dispositivo móvil y maneja el objeto Coordinates que muestra la ubicación actual y una marca de tiempo, incluyendo latitud, longitud, altitud, velocidad, dirección de movimiento y otras.
+      p(numero="2" titulo="<i>Position</i>") Presenta la ubicación de un dispositivo móvil y maneja el objeto #[b Coordinates] que muestra la ubicación actual y una marca de tiempo, incluyendo latitud, longitud, altitud, velocidad, dirección de movimiento y otras.
         img.img-a.mt-4(src='@/assets/curso/tema_4/img_9.png', alt='Texto que describa la imagen')
 
-      p.text-small(numero="3" titulo="File") La API File provee información de archivos y permite que el JavaScript tenga acceso a su contenido. Los objetos File que se recuperan a través del objeto FileList (en-US), retornan utilizando el elemento &lt;input&gt;. El objeto File puede ser utilizado en cualquier contexto: FileReader, URL.createObjectURL(), createImageBitmap() (en-US), y XMLHttpRequest.send().
+      p(numero="3" titulo="<i>File</i>") La API #[b #[i File]] provee información de archivos y permite que el JavaScript tenga acceso a su contenido. Los objetos #[b #[i File]] que se recuperan a través del objeto #[u FileList (en-US)], retornan utilizando el elemento #[b &lt;input&gt;]. El objeto #[b #[i File]] puede ser utilizado en cualquier contexto: #[u FileReader, URL.createObjectURL()], #[u createImageBitmap() (en-US)], y #[u XMLHttpRequest.send()].
         img.img-a.mt-4(src='@/assets/curso/tema_4/img_10.png', alt='Texto que describa la imagen')
 
-      p.text-small(numero="4" titulo="File (propiedades)") Observe en la tabla, algunas de las propiedades de File y su descripción.
+      p(numero="4" titulo="<i>File</i> (propiedades)") Observe en la tabla, algunas de las propiedades de #[b #[i File]] y su descripción.
         img.img-a.mt-4(src='@/assets/curso/tema_4/img_11.png', alt='Texto que describa la imagen')
 
-      p.text-small(numero="5" titulo="File (métodos)") La interfaz File no define algún método, pero los hereda de la interfaz Blob.
+      p(numero="5" titulo="<i>File</i> (métodos)") La interfaz #[i File] no define algún método, pero los hereda de la interfaz #[u Blob].
         img.img-a.mt-4(src='@/assets/curso/tema_4/img_12.png', alt='Texto que describa la imagen')
 
-      p.text-small(numero="6" titulo="Web socket") Tecnología que permite abrir una sesión de comunicación entre el navegador del usuario y un servidor. Puede enviar mensajes a un servidor y recibir respuestas controladas, sin tener que consultar al servidor.
+      p(numero="6" titulo="<i>Web socket</i>") Tecnología que permite abrir una sesión de comunicación entre el navegador del usuario y un servidor. Puede enviar mensajes a un servidor y recibir respuestas controladas, sin tener que consultar al servidor.
         img.img-a.mt-4(src='@/assets/curso/tema_4/img_13.png', alt='Texto que describa la imagen')
 
-      p.text-small(numero="7" titulo="Storage") Permite acceso y almacenamiento desde la sesión al almacenamiento local en el dispositivo para añadir, modificar o eliminar datos almacenados, entre otros aspectos. Para manipular y tener acceso a almacenamiento de la sesión se debe utilizar el método Window.sessionStorage y para manipular el almacenamiento local, debe utilizarse Window.localStorage.
+      p(numero="7" titulo="<i>Storage</i>") Permite acceso y almacenamiento desde la sesión al almacenamiento local en el dispositivo para añadir, modificar o eliminar datos almacenados, entre otros aspectos. Para manipular y tener acceso a almacenamiento de la sesión se debe utilizar el método #[u Window.sessionStorage] y para manipular el almacenamiento local, debe utilizarse #[u Window.localStorage].
         img.img-a.mt-4(src='@/assets/curso/tema_4/img_14.png', alt='Texto que describa la imagen')
 
-      p.text-small(numero="8" titulo="Windows.sessionStorage") Permite acceder al almacenamiento asociado a la sesión actual. La propiedad sessionStorage se comporta similar a localStorage; la diferencia es que la información se almacena en localStorage y no expira, solo se elimina al finalizar la sesión.
+      p(numero="8" titulo="<i>Windows.sessionStorage</i>") Permite acceder al almacenamiento asociado a la sesión actual. La propiedad #[b sessionStorage] se comporta similar a #[u localStorage]; la diferencia es que la información se almacena en #[b localStorage] y no expira, solo se elimina al finalizar la sesión.
         img.img-a.mt-4(src='@/assets/curso/tema_4/img_15.png', alt='Texto que describa la imagen')
 
     separador
@@ -204,32 +228,34 @@
               h5 Tabla 2
               span Librerías
             table.mb-0
-              thead.bor_the
+              thead
                 tr
+                  th.tabl_anc
+                  th                  
               tbody.bor_the
                 tr.bg_td2
-                  td jQuery	
+                  td.tabl_anc jQuery	
                   td Permite realizar tareas de una forma más fácil y rápida, manipulación DOM. Permite agregar interactividad y efectos visuales en un sitio web.
                 tr
-                  td Moments.js	
+                  td.tabl_anc Moments.js	
                   td Ayuda a trabajar con las fechas. Lo que permite, en vez de mostrar la fecha en formato “publicado el 10 de diciembre del 2021 a las 10:00 p.m.”, como lo devuelve JavaScript, esta librería lo estandariza y simplifica.
                 tr.bg_td2
-                  td anime.js	
+                  td.tabl_anc anime.js	
                   td Permite animar diferentes propiedades CSS, SVG o atributos DOM en una página web. Controla los aspectos de la animación y brinda muchas formas de especificar las propiedades que se quieren animar.
                 tr
-                  td D3.js	
+                  td.tabl_anc D3.js	
                   td Es utilizada para manipular documentos basados en datos. Proporciona una gran facilidad y flexibilidad para crear visualizaciones de datos.
                 tr.bg_td2
-                  td Chart.js	
+                  td.tabl_anc Chart.js	
                   td Es una librería muy fácil de utilizar y permite incluir gráficos animados e interactivos.
                 tr
-                  td MathJS	
+                  td.tabl_anc MathJS	
                   td Librería matemática para JavaScript. Ofrece una solución integrada para trabajar con tipos de datos: números, números grandes, números complejos, fracciones, unidades y matrices.
                 tr.bg_td2
-                  td Hammer.js	
-                  td Se utiliza para crear aplicaciones web que requieren realizar acciones como 	desplazarse, deslizar, rotar y hacer zoom en los gestos táctiles.
+                  td.tabl_anc Hammer.js	
+                  td Se utiliza para crear aplicaciones web que requieren realizar acciones como 	desplazarse, deslizar, rotar y hacer #[i zoom] en los gestos táctiles.
                 tr
-                  td React	
+                  td.tabl_anc React	
                   td Ayuda a crear interfaces interactivas para el usuario. Con esta librería permite diseñar vistas simples.
 
       

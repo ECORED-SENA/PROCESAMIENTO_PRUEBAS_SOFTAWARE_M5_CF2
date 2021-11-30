@@ -167,6 +167,9 @@
   th
     color: $white
 
+.tabl_anc
+  width: 25% !important
+  white-space: nowrap !important
 .bg_td
   background-color: #FCEFEF
 
@@ -175,9 +178,14 @@
 
 .bg_td2
   background-color: #E3F8F2
+  
 
 .bor_the
   border-top: $color-acento-contenido 10px solid
+
+.barra-avance__boton--regresar span
+  color: #fff !important
+
 
 
 .bloque-texto-h
@@ -223,32 +231,5 @@
 		transform: translatey(-10px)
 	100%
 		transform: translatey(0px)
-
-
-.bor_tar
-  border: PowderBlue 5px solid
-  border-radius: 20px 
-  position: relative   
-  &:before
-    content: ''
-    width: 0
-    height: 0
-    font-size: 0
-    overflow: hidden
-    display: block
-    border-width: 15px
-    border-color: PowderBlue transparent transparent transparent
-    border-style: solid dashed dashed dashed
-    position: absolute
-    top: calc(100% + 6px)
-    left: 50%
-
-.head_tar
-  background-color: $red 
-  border-top-left-radius: 15px
-  border-top-right-radius: 15px
-
-.bor-tar
-  border-right: 15px solid white
 
   

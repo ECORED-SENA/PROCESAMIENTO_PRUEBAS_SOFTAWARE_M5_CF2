@@ -210,12 +210,13 @@ export default {
     {
       termino: 'Geolocalización',
       significado:
-        'identificación de la ubicación geográfica a partir de un dispositivo conectado a internet. Existen muchas tecnologías aptas para determinar la geolocalización de una persona',
+        'identificación de la ubicación geográfica a partir de un dispositivo conectado a internet. Existen muchas tecnologías aptas para determinar la geolocalización de una persona.',
     },
     {
-      termino: 'Icono',
+      termino: 'Ícono',
+      terminoHtml: '<i>Ícono</i>',
       significado:
-        'signo que representa un objeto o una idea con los que guarda una relación de identidad o semejanza formal',
+        'signo que representa un objeto o una idea con los que guarda una relación de identidad o semejanza formal.',
     },
     {
       termino: 'Interfaz',
@@ -230,7 +231,7 @@ export default {
     {
       termino: 'Sintáctico',
       significado:
-        'análisis de las funciones sintácticas o relaciones de concordancia y jerarquía que guardan las palabras cuando se agrupan entre sí en forma de sintagmas',
+        'análisis de las funciones sintácticas o relaciones de concordancia y jerarquía que guardan las palabras cuando se agrupan entre sí en forma de sintagmas.',
     },
     {
       termino: 'Sintaxis',
@@ -253,30 +254,30 @@ export default {
   complementario: [
     {
       texto: 'Fazt. (2018). Curso HTML para principiantes. [Video]. Youtube.',
-      tipo: 'Video youtube',
+      tipo: 'Video Youtube',
       link: 'https://www.youtube.com/embed/rbuYtrNUxg4',
     },
     {
       texto: 'Fazt. (2018). Curso CSS para principiantes. [Video]. Youtube. ',
-      tipo: 'Video youtube',
+      tipo: 'Video Youtube',
       link: 'https://www.youtube.com/embed/W6GTDfrWjXs',
     },
     {
       texto:
         'Fazt. (2018). Curso Javascript para principiantes. [Video]. Youtube. ',
-      tipo: 'Video youtube',
+      tipo: 'Video Youtube',
       link: 'https://www.youtube.com/embed/RqQ1d1qEWlE',
     },
     {
       texto:
         'Codificándolo. (2021). Como consumir una API en JavaScript. [Video]. Youtube. ',
-      tipo: 'Video youtube',
+      tipo: 'Video Youtube',
       link: 'https://www.youtube.com/embed/a2cQ7YLyjzE',
     },
     {
       texto:
-        'Bernardez, R. (2015). Sácale chispas a Chrome Developer Tools (DevTools). [Video]. Youtube. ',
-      tipo: 'Video youtube',
+        'Bernardez, R. (2015). Sácale chispas a <i>Chrome Developer Tools (DevTools)</i>. [Video]. Youtube. ',
+      tipo: 'Video Youtube',
       link: 'https://www.youtube.com/embed/xBXYIs4-xJE',
     },
   ],
@@ -297,24 +298,25 @@ export default {
       },
       {
         nombre: 'David Eduardo Lozada Cerón',
-        cargo: 'Experto Temático',
+        cargo: 'Experto temático',
         centro:
           'Centro de Teleinformática y Producción Industrial - Regional Cauca',
       },
       {
         nombre: 'Fabián Leonardo Correa Díaz',
-        cargo: 'Diseñador Instruccional',
-        centro: 'Centro agropecuario La Granja - Regional Tolima',
+        cargo: 'Diseñador instruccional',
+        centro: 'Centro Agropecuario La Granja - Regional Tolima',
       },
       {
         nombre: 'Silvia Milena Sequeda Cárdenas',
         cargo: 'Evaluadora instruccional',
-        centro: 'Centro de la gestión industrial - Distrito capital',
+        centro: 'Centro de Gestión Industrial - Regional Distrito Capital',
       },
       {
         nombre: 'José Gabriel Ortiz Abella',
         cargo: 'Corrector de estilo',
-        centro: 'Centro de la gestión industrial - Distrito capital',
+        centro:
+          'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital',
       },
     ],
     desarrolloProducto: [
@@ -330,13 +332,72 @@ export default {
         centro: 'Centro de Comercio y Servicios - Regional Tolima',
       },
       {
-        nombre: ['Nombre 1', 'Nombre 2'],
+        nombre: 'Oscar Ivan Uribe Ortiz',
         cargo: 'Diseño web',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Oscar Ivan Uribe Ortiz',
+        nombre: ['Zuleidy María Ruiz Torres'],
+        cargo: 'Producción audiovisual',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
+      },
+      {
+        nombre: ['Wilson Andrés Arenales Cáceres'],
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: ['Gilberto Junior Rodriguez Rodriguez'],
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: ['María Carolina Tamayo López'],
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: ['José Jaime Luis Tang Pinzón'],
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: ['Ricardo Vásquez Arroyave'],
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: ['Adriana Marcela Suárez Eljure'],
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: ['Daniela Muñoz Bedoya'],
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: ['Andrés Felipe Herrera Roldan'],
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: ['Lina Marcela Pérez Manchego'],
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: ['Lady Adriana Ariza Luque'],
         cargo: 'Producción audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
@@ -354,7 +415,7 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Jenny Paola Montillo Gélvez',
         cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',

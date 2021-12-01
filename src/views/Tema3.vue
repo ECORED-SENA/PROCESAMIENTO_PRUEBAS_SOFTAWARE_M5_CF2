@@ -40,7 +40,7 @@
         .bg_7.p-4
           .row.align-items-center
             .col-lg-8(data-aos="slide-left")
-              p.mb-0 Explore el Anexo_3_ReferenciasDeEstilosYPropiedadesCSS3 y encuentre allí los estilos de uso más frecuente, en la asignación de formato en la creación de páginas web.
+              p.mb-0 Explore el #[b Anexo_3_ReferenciasDeEstilosYPropiedadesCSS3] y encuentre allí los estilos de uso más frecuente, en la asignación de formato en la creación de páginas web.
             .col-lg-4(data-aos="slide-right")
               a.anexo.mt-4(:href="obtenerLink('/downloads/Anexo_3_ReferenciasDeEstilosYPropiedadesCSS3.pdf')" target="_blank")
                 .anexo__icono

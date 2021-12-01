@@ -140,42 +140,43 @@ export default {
   referencias: [
     {
       referencia:
-        '100 Web Hosting. (s.f.). Referencia etiquetas HTML5. [Web log post]. Cafetero 100.',
+        '100 Web Hosting. (s.f.). Referencia etiquetas HTML5. <i>[Web log post]</i>. Cafetero 100.',
       link: 'https://www.cafetero100.com/manual-html5/',
     },
 
     {
       referencia:
-        'Crea tu web creando internet. (s.f.). Estilos CSS: referencia. [Web log post]. Espaciolatino.',
+        'Crea tu web creando internet. (s.f.). Estilos CSS: referencia. <i>[Web log post]</i>. Espaciolatino.',
       link: 'https://creatuweb.espaciolatino.com/tutorhtml/tema17.html',
     },
 
     {
       referencia:
-        'Martínez, M. (2020). 12 librerías JavaScript que deberías conocer. [Web log post]. Profile.',
+        'Martínez, M. (2020). 12 librerías JavaScript que deberías conocer. <i>[Web log post]</i>. Profile.',
       link: 'https://profile.es/blog/librerias-javascript/',
     },
 
     {
-      referencia: 'Mdn web docs. (2021). File. [Web log post]. MDN Web Docs.',
+      referencia:
+        'Mdn web docs. (2021). File. <i>[Web log post]</i>. MDN Web Docs.',
       link: 'https://developer.mozilla.org/es/docs/Web/API/File',
     },
 
     {
       referencia:
-        'Mdn web docs. (2021). WebSockets. [Web log post]. MDN Web Docs.',
+        'Mdn web docs. (2021). <i>WebSockets. [Web log post]</i>. MDN Web Docs.',
       link: 'https://developer.mozilla.org/es/docs/Web/API/WebSockets_API',
     },
 
     {
       referencia:
-        'Mdn web docs. (2021). Almacenamiento. [Web log post]. MDN Web Docs.',
+        'Mdn web docs. (2021). Almacenamiento. <i>[Web log post]</i>. MDN Web Docs.',
       link: 'https://developer.mozilla.org/es/docs/Web/API/Storage',
     },
 
     {
       referencia:
-        'Nieto, I. (2003). Eventos en JavaScript. [Web log post]. Laplace.',
+        'Nieto, I. (2003). Eventos en JavaScript. <i>[Web log post]</i>. Laplace.',
       link:
         'http://laplace.ucv.cl/Cursos/Old/FisComputacional/javascript/Tutorial/javascript5.html',
     },

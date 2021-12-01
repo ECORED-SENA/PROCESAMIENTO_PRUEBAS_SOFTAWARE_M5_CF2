@@ -97,77 +97,79 @@
             table
               thead
                 tr.bg_the.text-center
-                  th.tabl_anc Evento
-                  th Se ejecuta cuando
+                  th.tabl_anc 
+                    h4.mb-0 Evento
+                  th 
+                    h4.mb-0 Se ejecuta cuando
               tbody
                 tr.bg_td
-                  td onAbort	
+                  td #[b onAbort]	
                   td El usuario interrumpe la carga de una imagen.
                 tr.bg_td1
-                  td onBlur	
+                  td #[b onBlur]	
                   td Un elemento de formulario, una ventana o un marco pierden el foco.
                 tr.bg_td
-                  td onChange	
+                  td #[b onChange]	
                   td El valor de un campo de formulario cambia.
                 tr.bg_td1
-                  td onClick	
+                  td #[b onClick]	
                   td Se hace clic en un objeto o formulario.
                 tr.bg_td
-                  td onDblClick	
+                  td #[b onDblClick]	
                   td Se hace doble clic en un objeto o formulario.
                 tr.bg_td1
-                  td onDragDrop	
+                  td #[b onDragDrop]	
                   td El usuario arrastra y suelta un objeto en la ventana.
                 tr.bg_td
-                  td onError	
+                  td #[b onError]	
                   td La carga de un documento o imagen produce un error.
                 tr.bg_td1
-                  td onFocus	
+                  td #[b onFocus]	
                   td Una ventana, marco o elemento de formulario recibe el foco.
                 tr.bg_td
-                  td onKeyDown	
+                  td #[b onKeyDown]	
                   td El usuario pulsa una tecla.
                 tr.bg_td1
-                  td onKeyPress	
+                  td #[b onKeyPress]	
                   td El usuario mantiene pulsada una tecla.
                 tr.bg_td
-                  td onKeyUp	
+                  td #[b onKeyUp]	
                   td El usuario libera una tecla.
                 tr.bg_td1
-                  td onLoad	
+                  td #[b onLoad]	
                   td El navegador termina la carga de una ventana.
                 tr.bg_td
-                  td onMouseDown	
+                  td #[b onMouseDown]	
                   td El usuario pulsa un botón del ratón.
                 tr.bg_td1
-                  td onMouseMove	
+                  td #[b onMouseMove]	
                   td El usuario mueve el puntero.
                 tr.bg_td
-                  td onMouseOut	
+                  td #[b onMouseOut]	
                   td El puntero abandona un área o enlace.
                 tr.bg_td1
-                  td onMouseOver	
+                  td #[b onMouseOver]	
                   td El puntero entra en un área o imagen.
                 tr.bg_td
-                  td onMouseUp	
+                  td #[b onMouseUp]	
                   td El usuario libera un botón del ratón.
                 tr.bg_td1
-                  td onMove	
+                  td #[b onMove]	
                   td Se mueve una ventana o un marco.
                 tr.bg_td
-                  td onReset	
+                  td #[b onReset]	
                   td El usuario limpia un formulario.
                 tr.bg_td1
-                  td onResize	
+                  td #[b onResize]	
                   td Se cambia el tamaño de una ventana o marco.
                 tr.bg_td
-                  td onSelect	
+                  td #[b onSelect]	
                   td Se selecciona el texto del campo texto o área de texto de un formulario.
                 tr.bg_td1
-                  td onSubmit	
+                  td #[b onSubmit]	
                   td El usuario envía un formulario.
                 tr.bg_td
-                  td onUnload	
+                  td #[b onUnload]	
                   td El usuario abandona una página.
 
     separador
@@ -234,28 +236,28 @@
                   th                  
               tbody.bor_the
                 tr.bg_td2
-                  td.tabl_anc jQuery	
+                  td.tabl_anc #[b jQuery]	
                   td Permite realizar tareas de una forma más fácil y rápida, manipulación DOM. Permite agregar interactividad y efectos visuales en un sitio web.
                 tr
-                  td.tabl_anc Moments.js	
+                  td.tabl_anc #[b Moments.js]	
                   td Ayuda a trabajar con las fechas. Lo que permite, en vez de mostrar la fecha en formato “publicado el 10 de diciembre del 2021 a las 10:00 p.m.”, como lo devuelve JavaScript, esta librería lo estandariza y simplifica.
                 tr.bg_td2
-                  td.tabl_anc anime.js	
+                  td.tabl_anc #[b anime.js]	
                   td Permite animar diferentes propiedades CSS, SVG o atributos DOM en una página web. Controla los aspectos de la animación y brinda muchas formas de especificar las propiedades que se quieren animar.
                 tr
-                  td.tabl_anc D3.js	
+                  td.tabl_anc #[b D3.js]	
                   td Es utilizada para manipular documentos basados en datos. Proporciona una gran facilidad y flexibilidad para crear visualizaciones de datos.
                 tr.bg_td2
-                  td.tabl_anc Chart.js	
+                  td.tabl_anc #[b Chart.js]	
                   td Es una librería muy fácil de utilizar y permite incluir gráficos animados e interactivos.
                 tr
-                  td.tabl_anc MathJS	
+                  td.tabl_anc #[b MathJS]	
                   td Librería matemática para JavaScript. Ofrece una solución integrada para trabajar con tipos de datos: números, números grandes, números complejos, fracciones, unidades y matrices.
                 tr.bg_td2
-                  td.tabl_anc Hammer.js	
+                  td.tabl_anc #[b Hammer.js]	
                   td Se utiliza para crear aplicaciones web que requieren realizar acciones como 	desplazarse, deslizar, rotar y hacer #[i zoom] en los gestos táctiles.
                 tr
-                  td.tabl_anc React	
+                  td.tabl_anc #[b React]	
                   td Ayuda a crear interfaces interactivas para el usuario. Con esta librería permite diseñar vistas simples.
 
       

@@ -56,14 +56,21 @@
 
                 img.img-a.mt-4(src='@/assets/curso/tema_2/img_31.svg', alt='Texto que describa la imagen')
 
-            .row(data-aos="slide-left").mt-5.d-none.d-lg-block
-              .col-lg-5
-                img.img-a(src='@/assets/curso/tema_2/img_9.png', alt='Texto que describa la imagen')
-              
+            .row
+              .col-lg-12.d-none.d-lg-block
 
-            .row.justify-content-center.bg_5
-              .col-lg-4
-                p 
+                .row(data-aos="slide-left").mt-5
+                  .col-lg-5
+                    img.img-a(src='@/assets/curso/tema_2/img_9.png', alt='Texto que describa la imagen')
+                  
+
+                .row.justify-content-center.bg_5.p-4
+                  .col-lg-4
+                    p 
+                  .col-lg-7(data-aos="slide-right")
+                    p Tenga presente que las etiquetas &lt;meta&gt; &lt;title&gt; y &lt;link&gt; permiten mostrar contenidos más específicos o permiten crear comportamientos en el documento.
+
+            .row.justify-content-center.bg_6.p-4.d-block.d-lg-none
               .col-lg-7(data-aos="slide-right")
                 p Tenga presente que las etiquetas &lt;meta&gt; &lt;title&gt; y &lt;link&gt; permiten mostrar contenidos más específicos o permiten crear comportamientos en el documento.
 

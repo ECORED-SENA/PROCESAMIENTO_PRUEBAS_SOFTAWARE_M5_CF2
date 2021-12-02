@@ -1196,6 +1196,7 @@
       <string id="three_image_camera_left">cámara movida a la izquierda</string>
       <string id="three_image_camera_down">cámara movida hacia abajo</string>
       <string id="three_image_camera_up">cámara movida hacia arriba</string>
+      <string id="three_image_tooltip">descripción emergente</string>
       <string id="three_image_label">etiqueta</string>
       <string id="three_image_interaction">interacción de la imagen de 360 grados</string>
       <string id="three_image_marker">marcador</string>
@@ -1271,15 +1272,15 @@
         <slidelink slideid="_player.6iPYYXYye9N" displaytext="Escena sin título" expand="true" type="slide">
           <links>
             <slidelink slideid="_player.6iPYYXYye9N.60B7h4FKhhU" displaytext="Diapositiva sin título" expand="false" type="slide" />
-            <slidelink slideid="_player.6iPYYXYye9N.6EdoTcI4Roc" displaytext="Las aplicaciones o sitios web están compuestos, principalmente, por varios documentos HTML, estos documentos cuentan con una estructura escrita por etiquetas que permite que el browser interprete y muestre lo que normalmente se ve al momento de acceder a una página Web, portal web, sitio web o aplicación web." expand="false" type="slide" />
+            <slidelink slideid="_player.6iPYYXYye9N.6EdoTcI4Roc" displaytext="Las aplicaciones o sitios web están compuestos, principalmente, por varios documentos HTML, estos documentos cuentan con una estructura escrita por etiquetas que permiten que el browser interprete y muestre lo que normalmente se ve al momento de acceder a una página web, portal web, sitio web o aplicación web." expand="false" type="slide" />
             <slidelink slideid="_player.6iPYYXYye9N.5tJwSlhWX19" displaytext="Los documentos HTML son estructuras de código estrictamente organizadas. Se utilizan etiquetas en donde se puede declarar y determinar la forma específica del funcionamiento o apariencia del contenido." expand="false" type="slide" />
-            <slidelink slideid="_player.6iPYYXYye9N.6V6gu83lB0A" displaytext="Las plantillas son aplicaciones del body; se utilizan y se identifican al ingresar en páginas web. Las plantillas pueden variar según el diseñador web pero, normalmente, se siguen algunos estándares." expand="false" type="slide" />
+            <slidelink slideid="_player.6iPYYXYye9N.6V6gu83lB0A" displaytext="Las plantillas son aplicaciones del body; se utilizan y se identifican al ingresar en páginas web. Las plantillas pueden variar según el diseñador web, pero normalmente, se siguen algunos estándares." expand="false" type="slide" />
             <slidelink slideid="_player.6iPYYXYye9N.6NiGlsq7GYn" displaytext="Los formularios son grupos de elementos que permiten capturar información y realizar operaciones transaccionales entre un documento HTML y una base de datos alojada en la parte del servidor." expand="false" type="slide" />
             <slidelink slideid="_player.6iPYYXYye9N.6KOTRdgfzEv" displaytext="JavaScript es un código de diseño de páginas web con secuencia de comandos. Es un lenguaje no compilado y se ejecuta fuera o dentro del navegador." expand="false" type="slide" />
             <slidelink slideid="_player.6iPYYXYye9N.5ooQsMJ4vk0" displaytext="Para crear un documento HTML sencillo no es necesario obtener una herramienta en específico, solo con un editor de texto es suficiente para escribir y construir estos documentos." expand="false" type="slide" />
             <slidelink slideid="_player.6iPYYXYye9N.5vWpevAz5LZ" displaytext="La estructura del cuerpo de una página web no es más que la estructura que se crea fuera del body; normalmente se le denomina plantilla." expand="false" type="slide" />
             <slidelink slideid="_player.6iPYYXYye9N.63HfMzoc8wy" displaytext="El CSS u hojas de estilo en cascada, es la manera en que se da formato a un grupo de elementos del documento HTML." expand="false" type="slide" />
-            <slidelink slideid="_player.6iPYYXYye9N.5YjPFqaHnp1" displaytext="Los selectores son utilizados para hacer referencia a las etiquetas del html. Estos selectores están clasificados en varios tipos.." expand="false" type="slide" />
+            <slidelink slideid="_player.6iPYYXYye9N.5YjPFqaHnp1" displaytext="Los selectores son utilizados para hacer referencia a las etiquetas del HTML. Estos selectores están clasificados en varios tipos." expand="false" type="slide" />
             <slidelink slideid="_player.6iPYYXYye9N.5ntagwtXYnQ" displaytext="Las API, Interfaces de Programación de Aplicaciones, son aplicaciones que crean los desarrolladores para, a su vez, crear funcionalidades de forma más sencilla y rápida. " expand="false" type="slide" />
           </links>
         </slidelink>

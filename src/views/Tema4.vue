@@ -76,14 +76,14 @@
           img.img-a(src='@/assets/curso/tema_4/img_6.svg', alt='Texto que describa la imagen')
 
 
-    .row
-      .col-lg-12.bg_11.p-4
+    .row.justify-content-center.mt-4
+      .col-lg-10
         .row.justify-content-center.mb-5
-          .col-sm-10.col-xl-5.mb-4.mb-xl-0(data-aos="slide-left")
+          .col-sm-8.col-xl-7.mb-4.mb-xl-0(data-aos="slide-left")
             .tarjeta.tarjeta-flip.color-secundario.bg_6(@mouseover="indicadorTarjetaFlip = false")
               .indicador--hover(v-if="indicadorTarjetaFlip")
               .tarjeta-flip__contenedor
-                .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema_2/img_10.svg')})`}")
+                .tarjeta-flip__img.im_tam(:style="{'background-image': `url(${require('@/assets/curso/tema_2/img_10.svg')})`}")
                 .tarjeta-flip__contenido.p-4.p-xl-5
                   img.img-a.mb-3(src='@/assets/curso/tema_2/img_12.png', alt='Texto que describa la imagen')
                   p.mb-0.text-center En esta tabla se especifican los eventos que pueden utilizarse.#[br] #[b ¡Conózcalos!]

@@ -79,7 +79,7 @@
     .row
       .col-lg-12.bg_11.p-4
         .row.justify-content-center.mb-5
-          .col-sm-6.col-xl-5.mb-4.mb-xl-0(data-aos="slide-left")
+          .col-sm-10.col-xl-5.mb-4.mb-xl-0(data-aos="slide-left")
             .tarjeta.tarjeta-flip.color-secundario.bg_6(@mouseover="indicadorTarjetaFlip = false")
               .indicador--hover(v-if="indicadorTarjetaFlip")
               .tarjeta-flip__contenedor
@@ -186,7 +186,7 @@
       p(numero="1" titulo="<i>Geolocation</i>") API sencilla que consiste en utilizar objetos sencillos. Contiene tres métodos para el control y recuperación de datos geográficos.
         img.img-a.mt-4(src='@/assets/curso/tema_4/img_8.png', alt='Texto que describa la imagen')
       
-      p(numero="2" titulo="<i>Position</i>") Presenta la ubicación de un dispositivo móvil y maneja el objeto #[b Coordinates] que muestra la ubicación actual y una marca de tiempo, incluyendo latitud, longitud, altitud, velocidad, dirección de movimiento y otras.
+      p(numero="2" titulo="<i>Position</i>") Presenta la ubicación de un dispositivo móvil y maneja el objeto #[b #[i Coordinates]] que muestra la ubicación actual y una marca de tiempo, incluyendo latitud, longitud, altitud, velocidad, dirección de movimiento y otras.
         img.img-a.mt-4(src='@/assets/curso/tema_4/img_9.png', alt='Texto que describa la imagen')
 
       p(numero="3" titulo="<i>File</i>") La API #[b #[i File]] provee información de archivos y permite que el JavaScript tenga acceso a su contenido. Los objetos #[b #[i File]] que se recuperan a través del objeto #[u FileList (en-US)], retornan utilizando el elemento #[b &lt;input&gt;]. El objeto #[b #[i File]] puede ser utilizado en cualquier contexto: #[u FileReader, URL.createObjectURL()], #[u createImageBitmap() (en-US)], y #[u XMLHttpRequest.send()].
@@ -195,7 +195,7 @@
       p(numero="4" titulo="<i>File</i> (propiedades)") Observe en la tabla, algunas de las propiedades de #[b #[i File]] y su descripción.
         img.img-a.mt-4(src='@/assets/curso/tema_4/img_11.png', alt='Texto que describa la imagen')
 
-      p(numero="5" titulo="<i>File</i> (métodos)") La interfaz #[i File] no define algún método, pero los hereda de la interfaz #[u Blob].
+      p(numero="5" titulo="<i>File</i> (métodos)") La interfaz #[i File] no define algún método, pero los hereda de la interfaz #[i #[u Blob]].
         img.img-a.mt-4(src='@/assets/curso/tema_4/img_12.png', alt='Texto que describa la imagen')
 
       p(numero="6" titulo="<i>Web socket</i>") Tecnología que permite abrir una sesión de comunicación entre el navegador del usuario y un servidor. Puede enviar mensajes a un servidor y recibir respuestas controladas, sin tener que consultar al servidor.

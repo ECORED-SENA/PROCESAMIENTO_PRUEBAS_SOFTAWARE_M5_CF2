@@ -70,9 +70,13 @@
                   .col-lg-7(data-aos="slide-right")
                     p Tenga presente que las etiquetas &lt;meta&gt; &lt;title&gt; y &lt;link&gt; permiten mostrar contenidos más específicos o permiten crear comportamientos en el documento.
 
-            .row.justify-content-center.bg_6.p-4.d-block.d-lg-none
+            .row(data-aos="slide-left").mt-5
+              .col-lg-5.d-block.d-lg-none
+                img.img-a(src='@/assets/curso/tema_2/img_9.png', alt='Texto que describa la imagen')
+
+            .row.justify-content-center.bg_7.p-4.d-block.d-lg-none.mt-3 
               .col-lg-7(data-aos="slide-right")
-                p Tenga presente que las etiquetas &lt;meta&gt; &lt;title&gt; y &lt;link&gt; permiten mostrar contenidos más específicos o permiten crear comportamientos en el documento.
+                p.mb-0 Tenga presente que las etiquetas &lt;meta&gt; &lt;title&gt; y &lt;link&gt; permiten mostrar contenidos más específicos o permiten crear comportamientos en el documento.
 
             
 
@@ -86,22 +90,35 @@
     p.mb-5(data-aos="slide-left") En HTML se utilizan algunos elementos para crear la estructura dentro de #[b #[i body]], el elemento utilizado inicialmente para crear esta estructura era la etiqueta #[b &lt;table&gt;], la que permite al desarrollador organizar la información, utilizando filas y columnas para mostrar y organizar información como: imágenes, textos y otros elementos, logrando que el usuario tenga una mejor experiencia visual y no se pierda entre los contenidos.
 
     .row.justify-content-center.mb-5
-      .col-sm-6.col-xl-6.mb-4.mb-xl-0(data-aos="slide-left")
+      .col-sm-8.col-xl-6.mb-4.mb-xl-0.p-2(data-aos="slide-left").d-none.d-lg-block
         .tarjeta.tarjeta-flip.color-secundario.bg_6(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
-            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema_2/img_10.svg')})`}")
+            .tarjeta-flip__img.im_tam(:style="{'background-image': `url(${require('@/assets/curso/tema_2/img_10.svg')})`}")
             .tarjeta-flip__contenido.p-4.p-xl-5
               img.img-a.mb-3(src='@/assets/curso/tema_2/img_12.png', alt='Texto que describa la imagen')
               p.mb-0 La etiqueta &lt;div&gt; llegó para reemplazar la etiqueta &lt;table&gt; al momento de crear esta estructura. Esta etiqueta lo que hace es separar el cuerpo, funcionando como la celda de una tabla, es más fácil de implementar y se utiliza menos código para crear la estructura.
 
-      .col-sm-6.col-xl-6.mb-4.mb-xl-0(data-aos="slide-right")
+      .col-sm-8.col-xl-6.mb-4.mb-xl-0.p-2(data-aos="slide-right").d-none.d-lg-block
         .tarjeta.tarjeta-flip.color-secundario(@mouseover="indicadorTarjetaFlip = false")
           .tarjeta-flip__contenedor
-            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema_2/img_11.svg')})`}")
+            .tarjeta-flip__img.im_tam(:style="{'background-image': `url(${require('@/assets/curso/tema_2/img_11.svg')})`}")
             .tarjeta-flip__contenido.p-4.p-xl-5
               img.img-a.mb-3(src='@/assets/curso/tema_2/img_12.png', alt='Texto que describa la imagen')
               p.mb-0 La forma establecer qué elemento utilizar para la estructura, depende de cada desarrollador, teniendo en cuenta las bondades y la necesidad de lo que se quiera mostrar, en pantalla, al usuario.
+
+    .row.justify-content-center.mb-5
+      .col-sm-12.col-xl-6.mb-4.mb-xl-0.p-2(data-aos="slide-left").d-block.d-lg-none
+        img.img-a.mb-3(src='@/assets/curso/tema_2/img_10.svg', alt='Texto que describa la imagen')
+        .bg_7.p-4
+          img.img-a.mb-3(src='@/assets/curso/tema_2/img_12.png', alt='Texto que describa la imagen')
+          p.mb-0 La etiqueta &lt;div&gt; llegó para reemplazar la etiqueta &lt;table&gt; al momento de crear esta estructura. Esta etiqueta lo que hace es separar el cuerpo, funcionando como la celda de una tabla, es más fácil de implementar y se utiliza menos código para crear la estructura.
+
+      .col-sm-12.col-xl-6.mb-4.mb-xl-0.p-2(data-aos="slide-right").d-block.d-lg-none
+        img.img-a.mb-3(src='@/assets/curso/tema_2/img_11.svg', alt='Texto que describa la imagen')
+        .bg_7.p-4
+          img.img-a.mb-3(src='@/assets/curso/tema_2/img_12.png', alt='Texto que describa la imagen')
+          p.mb-0 La forma establecer qué elemento utilizar para la estructura, depende de cada desarrollador, teniendo en cuenta las bondades y la necesidad de lo que se quiera mostrar, en pantalla, al usuario.
 
     .row.justify-content-center
       .col-lg-10(data-aos="flip-up")
@@ -145,7 +162,7 @@
           .col-lg-6
             hr.hr1.mt-0
         h5.bg_txt1 Elementos del contenido
-        p La mayoría de elementos vistos hasta este punto del componente, son elementos orientados a ofrecer metadatos (para los motores de búsqueda, &lt;meta>&gt;>) o de estructura (&lt;header&gt;, &lt;body&gt;). A continuación, se verán aquellos elementos usados para segmentar los contenidos dentro de una página o interface web o, simplemente, para diferenciar los contenidos de la página.
+        p La mayoría de elementos vistos hasta este punto del componente, son elementos orientados a ofrecer metadatos (para los motores de búsqueda, &lt;meta&gt;, &lt;title&gt;) o de estructura (&lt;header&gt;, &lt;body&gt;). A continuación, se verán aquellos elementos usados para segmentar los contenidos dentro de una página o interfaz #[i web] o, simplemente, para diferenciar los contenidos de la página.
 
       .row
         .col-lg-1
@@ -188,7 +205,7 @@
           .col-md-12.mb-4.mb-md-0
             p.mb-5 Este elemento utiliza la etiqueta #[b &lt;audio&gt;], así como en el video. Es decir, utiliza casi los mismos atributos del elemento video.
             img.img-a(src='@/assets/curso/tema_2/img_27.png', alt='Texto que describa la imagen')
-      .py-4.py-md-5.bg_08(titulo="Atributos de Audio" :icono="require('@/assets/curso/tema_2/img_23.svg')")
+      .py-4.py-md-5.bg_08(titulo="Atributos de audio" :icono="require('@/assets/curso/tema_2/img_23.svg')")
         .row.p-5
           .col-md-12.mb-4.mb-md-0
             p.mb-5 El atributo obligatorio es la ruta del archivo de audio, también cuenta con el atributo #[b #[i autoplay]] y #[b #[i loop]] que tienen el mismo comportamiento que en el video.
@@ -273,7 +290,7 @@ export default {
       },
       {
         texto:
-          'La etiqueta <b>&lt;header&gt</b>; se utiliza para la cabecera, teniendo en cuenta que la etiqueta <b>&lt;head&gt;</b> y <b>&lt;header&gt;</b> son totalmente diferentes; <b>&lt;nav&gt;</b> es utilizada para colocar el menú de navegación, <b>&lt;section&gt;</b> es la sección que mostrará la información dependiendo de lo que se quiere mostrar, <b>&lt;aside&gt;</b> hace parte de la estructura del <b>body</b> que  se puede utilizar para poner información personal o enlaces importantes; por último está el <b>&lt;footer&gt;</b>.',
+          'La etiqueta <b>&lt;header&gt</b>; se utiliza para la cabecera, teniendo en cuenta que la etiqueta <b>&lt;head&gt;</b> y <b>&lt;header&gt;</b> son totalmente diferentes; <b>&lt;nav&gt;</b> es utilizada para colocar el menú de navegación, <b>&lt;section&gt;</b> es la sección que mostrará la información dependiendo de lo que se quiere mostrar, <b>&lt;aside&gt;</b> hace parte de la estructura del <i><b>body</b></i> que  se puede utilizar para poner información personal o enlaces importantes; por último está el <b>&lt;footer&gt;</b>.',
         imagen: require('@/assets/curso/tema_2/img_18.svg'),
         //leyendaImagen: 'Leyenda de la imagen',
       },

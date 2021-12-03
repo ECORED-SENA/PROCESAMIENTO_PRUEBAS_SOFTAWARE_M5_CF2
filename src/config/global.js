@@ -215,7 +215,6 @@ export default {
     },
     {
       termino: 'Ícono',
-      terminoHtml: '<i>Ícono</i>',
       significado:
         'signo que representa un objeto o una idea con los que guarda una relación de identidad o semejanza formal.',
     },

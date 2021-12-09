@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="649" viewBox="0 0 820 649">
+  <g id="Grupo_70355" data-name="Grupo 70355" transform="translate(-2441 9598)">
+    <rect id="Rectángulo_8122" data-name="Rectángulo 8122" width="820" height="649" transform="translate(2441 -9598)" fill="#18222d"/>
+    <g id="Grupo_70352" data-name="Grupo 70352" transform="translate(1915 -12784)">
+      <rect id="Rectángulo_7609" data-name="Rectángulo 7609" width="658" height="25" transform="translate(615 3623)" fill="#fff" opacity="0.08"/>
+      <rect id="Rectángulo_7610" data-name="Rectángulo 7610" width="2" height="25" transform="translate(613 3623)" fill="#e3f8f2"/>
+    </g>
+    <text id="_HTML_" data-name="&lt;HTML&gt;" transform="translate(2528 -9548)" fill="#fff" font-size="20" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">&lt;</tspan><tspan y="0" fill="#eb9595">HTML</tspan><tspan y="0">&gt;</tspan></text>
+    <text id="_HEAD_" data-name="&lt;/HEAD&gt;" transform="translate(2567 -9316)" fill="#fff" font-size="18" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">&lt;/</tspan><tspan y="0" fill="#eb9595">HEAD</tspan><tspan y="0">&gt;</tspan></text>
+    <text id="_SCRIPT_" data-name="&lt;SCRIPT&gt;" transform="translate(2595 -9490)" fill="#fff" font-size="20" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">&lt;</tspan><tspan y="0" fill="#eb9595">SCRIPT</tspan><tspan y="0">&gt;</tspan></text>
+    <text id="_SCRIPT_2" data-name="&lt;/SCRIPT&gt;" transform="translate(2595 -9345)" fill="#fff" font-size="20" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">&lt;/</tspan><tspan y="0" fill="#eb9595">SCRIPT</tspan><tspan y="0">&gt;</tspan></text>
+    <text id="_function_Activar_campo_alert_Introduzca_un_valor_valido_campo.focus_" data-name="     function Activar(campo) {
+            alert(”¡Introduzca un valor valido!”)
+           campo.focus()
+      }" transform="translate(2595 -9460)" fill="#e17ce8" font-size="20" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0" xml:space="preserve">     function</tspan><tspan y="0" fill="#6d0c74"> </tspan><tspan y="0" fill="#77b2f1">Activar</tspan><tspan y="0" fill="#fff">(</tspan><tspan y="0" fill="#77f1c8">campo</tspan><tspan y="0" fill="#fff">) {</tspan><tspan fill="#77b2f1"><tspan x="0" y="29" xml:space="preserve">            alert</tspan><tspan y="29" fill="#fff">(”</tspan><tspan y="29" fill="#87ae6f">¡Introduzca un valor valido!</tspan><tspan y="29" fill="#fff">”)</tspan></tspan><tspan fill="#eea45e"><tspan x="0" y="58" xml:space="preserve">           campo</tspan><tspan y="58" fill="#fff">.</tspan><tspan y="58" fill="#77b2f1">focus</tspan><tspan y="58" fill="#fff">()</tspan></tspan><tspan fill="#fff"><tspan x="0" y="87" xml:space="preserve">      }</tspan></tspan></text>
+    <text id="_BODY_" data-name="&lt;BODY&gt;" transform="translate(2567 -9289)" fill="#fff" font-size="18" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">&lt;</tspan><tspan y="0" fill="#eb9595">BODY</tspan><tspan y="0">&gt;</tspan></text>
+    <text id="_FORM_METHOD_POST_" data-name="&lt;FORM METHOD=POST&gt;" transform="translate(2595 -9260)" fill="#fff" font-size="18" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">&lt;</tspan><tspan y="0" fill="#eb9595">FORM </tspan><tspan y="0" fill="#eea45e">METHOD</tspan><tspan y="0">=</tspan><tspan y="0" fill="#87ae6f">POST</tspan><tspan y="0">&gt;</tspan></text>
+    <text id="_FORM_" data-name="       &lt;/FORM&gt;" transform="translate(2567 -9204)" fill="#fff" font-size="18" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0" xml:space="preserve">       &lt;/</tspan><tspan y="0" fill="#eb9595">FORM</tspan><tspan y="0">&gt;</tspan></text>
+    <text id="_INPUT_TYPE_text_NAME_campo_onFocus_Activar_this_" data-name="     &lt;INPUT TYPE=text  NAME=campo  onFocus=”Activar(this)”&gt;" transform="translate(2595 -9233)" fill="#fff" font-size="18" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0" xml:space="preserve">     &lt;</tspan><tspan y="0" fill="#eb9595">INPUT </tspan><tspan y="0" fill="#eea45e">TYPE</tspan><tspan y="0">=</tspan><tspan y="0" xml:space="preserve" fill="#87ae6f">text  </tspan><tspan y="0" fill="#eea45e">NAME</tspan><tspan y="0">=</tspan><tspan y="0" fill="#87ae6f">campo </tspan><tspan y="0" xml:space="preserve" fill="#eea45e"> onFocus</tspan><tspan y="0">=</tspan><tspan y="0" fill="#87ae6f">”Activar(this)”</tspan><tspan y="0">&gt;</tspan></text>
+    <text id="_HEAD_2" data-name="&lt;HEAD&gt;" transform="translate(2567 -9519)" fill="#fff" font-size="18" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">&lt;</tspan><tspan y="0" fill="#eb9595">HEAD</tspan><tspan y="0">&gt;</tspan></text>
+    <text id="_BODY_2" data-name="&lt;/BODY&gt;" transform="translate(2567 -9171)" fill="#fff" font-size="18" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">&lt;/</tspan><tspan y="0" fill="#eb9595">BODY</tspan><tspan y="0">&gt;</tspan></text>
+    <text id="_HTML_2" data-name="&lt;/HTML&gt;" transform="translate(2530 -9143)" fill="#fff" font-size="18" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">&lt;/</tspan><tspan y="0" fill="#eb9595">HTML</tspan><tspan y="0">&gt;</tspan></text>
+    <text id="_4" data-name="4" transform="translate(2480 -9461)" fill="#afafaf" font-size="20" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">4</tspan></text>
+    <text id="_5" data-name="5" transform="translate(2480 -9432)" fill="#afafaf" font-size="20" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">5</tspan></text>
+    <text id="_6" data-name="6" transform="translate(2480 -9403)" fill="#afafaf" font-size="20" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">6</tspan></text>
+    <text id="_7" data-name="7" transform="translate(2480 -9374)" fill="#afafaf" font-size="20" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">7</tspan></text>
+    <text id="_8" data-name="8" transform="translate(2480 -9345)" fill="#afafaf" font-size="20" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">8</tspan></text>
+    <text id="_9" data-name="9" transform="translate(2480 -9316)" fill="#afafaf" font-size="20" font-family="Roboto-Regular, Roboto" opacity="0.9"><tspan x="0" y="0">9</tspan></text>
+    <text id="_10" data-name="10" transform="translate(2491 -9287)" fill="#afafaf" font-size="20" font-family="Roboto-Regular, Roboto" opacity="0.9"><tspan x="-22.461" y="0">10</tspan></text>
+    <text id="_11" data-name="11" transform="translate(2491 -9258)" fill="#afafaf" font-size="20" font-family="Roboto-Regular, Roboto" opacity="0.9"><tspan x="-22.461" y="0">11</tspan></text>
+    <text id="_12" data-name="12" transform="translate(2491 -9229)" fill="#afafaf" font-size="20" font-family="Roboto-Regular, Roboto" opacity="0.9"><tspan x="-22.461" y="0">12</tspan></text>
+    <text id="_13" data-name="13" transform="translate(2491 -9200)" fill="#afafaf" font-size="20" font-family="Roboto-Regular, Roboto" opacity="0.9"><tspan x="-22.461" y="0">13</tspan></text>
+    <text id="_14" data-name="14" transform="translate(2491 -9171)" fill="#afafaf" font-size="20" font-family="Roboto-Regular, Roboto" opacity="0.9"><tspan x="-22.461" y="0">14</tspan></text>
+    <text id="_15" data-name="15" transform="translate(2491 -9142)" fill="#afafaf" font-size="20" font-family="Roboto-Regular, Roboto" opacity="0.9"><tspan x="-22.461" y="0">15</tspan></text>
+    <text id="_1" data-name="1" transform="translate(2480 -9548)" fill="#afafaf" font-size="20" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">1</tspan></text>
+    <text id="_2" data-name="2" transform="translate(2480 -9519)" fill="#afafaf" font-size="20" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">2</tspan></text>
+    <text id="_3" data-name="3" transform="translate(2480 -9490)" fill="#afafaf" font-size="20" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">3</tspan></text>
+    <path id="Trazado_156679" data-name="Trazado 156679" d="M-4507-8804.612v371.9" transform="translate(7036 -719.594)" fill="none" stroke="#707070" stroke-width="1"/>
+    <g id="Rectángulo_8153" data-name="Rectángulo 8153" transform="translate(2871 -9255)" fill="none" stroke="#eb9595" stroke-width="1" stroke-dasharray="1">
+      <rect width="199" height="37" stroke="none"/>
+      <rect x="0.5" y="0.5" width="198" height="36" fill="none"/>
+    </g>
+    <g id="right-arrow" transform="translate(2926.929 -9288) rotate(-90)">
+      <path id="Trazado_155865" data-name="Trazado 155865" d="M28.265,29.142,42.837,14.571l.006-.006L28.278,0,22.4,5.879l4.534,4.534H-33v8.314H26.923l-4.536,4.536Zm0,0" transform="translate(0)" fill="#cb7676"/>
+      <path id="Trazado_155866" data-name="Trazado 155866" d="M28.265,188.7l14.572-14.571H-33v4.156H26.923l-4.536,4.536Zm0,0" transform="translate(0 -159.562)" fill="#eb9595"/>
+    </g>
+    <g id="Rectángulo_8154" data-name="Rectángulo 8154" transform="translate(2566 -9514)" fill="none" stroke="#eb9595" stroke-width="1" stroke-dasharray="1">
+      <rect width="485" height="177" stroke="none"/>
+      <rect x="0.5" y="0.5" width="484" height="176" fill="none"/>
+    </g>
+    <g id="Grupo_70225" data-name="Grupo 70225" transform="translate(-131.023 -57.586)">
+      <rect id="Rectángulo_8155" data-name="Rectángulo 8155" width="421" height="124" rx="7" transform="translate(2770.023 -9033.414)" fill="#fff"/>
+      <text id="A_bank_is_a_financia" data-name="A bank is a financia" transform="translate(2788.023 -8987.414)" fill="#12263f" font-size="11" font-family="Roboto-Regular, Roboto"><tspan x="0" y="12">¡Introduzca un valor valido!</tspan></text>
+      <text id="A_bank_is_a_financia-2" data-name="A bank is a financia" transform="translate(2808.023 -9018.414)" fill="#12263f" font-size="11" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="10">playcode.io</tspan></text>
+      <rect id="Rectángulo_8156" data-name="Rectángulo 8156" width="53" height="31" rx="3" transform="translate(3124.023 -8955.414)" fill="#0061e0"/>
+      <text id="A_bank_is_a_financia-3" data-name="A bank is a financia" transform="translate(3141.023 -8947.414)" fill="#fff" font-size="11" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="10">OK</tspan></text>
+      <g id="Rectángulo_8157" data-name="Rectángulo 8157" transform="translate(2776.023 -9000.414)" fill="none" stroke="#eb9595" stroke-width="1">
+        <rect width="206" height="48" stroke="none"/>
+        <rect x="0.5" y="0.5" width="205" height="47" fill="none"/>
+      </g>
+      <g id="world-wide-web" transform="translate(2788.853 -9017.918)">
+        <path id="Trazado_156682" data-name="Trazado 156682" d="M6.914,13.825A6.913,6.913,0,1,0,0,6.913,6.921,6.921,0,0,0,6.914,13.825Zm-4.507-3.5a9.536,9.536,0,0,1,2.013-.5,11.524,11.524,0,0,0,.417,1.734,6.966,6.966,0,0,0,.283.722A5.679,5.679,0,0,1,2.407,10.326ZM1.258,6.913a5.624,5.624,0,0,1,.5-2.322,10.439,10.439,0,0,0,2.505.661c-.047.537-.072,1.094-.072,1.661s.025,1.124.072,1.661a10.439,10.439,0,0,0-2.505.661A5.623,5.623,0,0,1,1.258,6.913ZM6.914,1.257c.135,0,.53.345.885,1.411a10.149,10.149,0,0,1,.359,1.473c-.4.028-.821.043-1.244.043s-.84-.015-1.244-.043a10.143,10.143,0,0,1,.359-1.473C6.384,1.6,6.778,1.257,6.914,1.257Zm0,4.184c.479,0,.948-.018,1.4-.051.042.49.064,1,.064,1.523s-.022,1.032-.064,1.523c-.455-.034-.924-.051-1.4-.051s-.948.018-1.4.051c-.042-.49-.064-1-.064-1.523s.022-1.032.064-1.523C5.966,5.424,6.435,5.441,6.913,5.441Zm5.656,1.472a5.624,5.624,0,0,1-.5,2.322,10.439,10.439,0,0,0-2.505-.661c.047-.537.072-1.094.072-1.661s-.025-1.124-.072-1.661A10.435,10.435,0,0,0,12.07,4.59,5.623,5.623,0,0,1,12.569,6.913ZM6.914,12.569c-.135,0-.53-.345-.885-1.411A10.15,10.15,0,0,1,5.67,9.684c.4-.028.82-.043,1.244-.043s.84.015,1.244.043A10.149,10.149,0,0,1,7.8,11.158C7.443,12.224,7.049,12.569,6.914,12.569Zm1.794-.292a6.976,6.976,0,0,0,.283-.722,11.519,11.519,0,0,0,.417-1.734,9.537,9.537,0,0,1,2.012.5A5.679,5.679,0,0,1,8.708,12.277ZM11.421,3.5A9.532,9.532,0,0,1,9.408,4,11.518,11.518,0,0,0,8.991,2.27a6.961,6.961,0,0,0-.283-.722A5.68,5.68,0,0,1,11.421,3.5ZM5.12,1.549a6.971,6.971,0,0,0-.283.722A11.526,11.526,0,0,0,4.419,4a9.539,9.539,0,0,1-2.013-.5A5.679,5.679,0,0,1,5.12,1.549Z" transform="translate(-0.001)"/>
+      </g>
+    </g>
+    <path id="Trazado_157191" data-name="Trazado 157191" d="M2455.722-9116.429h774.24" transform="translate(7.777 9)" fill="none" stroke="#ebebeb" stroke-width="1"/>
+  </g>
+</svg>

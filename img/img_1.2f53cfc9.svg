@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1328.001" height="721.058" viewBox="0 0 1328.001 721.058">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.378" y1="0.646" x2="0" y2="0.964" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#95ebd1" stop-opacity="0"/>
+      <stop offset="1" stop-color="#607b82" stop-opacity="0.757"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.194" y1="0.914" x2="0.66" y2="0.035" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+      <stop offset="1" stop-color="#95ebd1" stop-opacity="0.169"/>
+    </linearGradient>
+  </defs>
+  <g id="Grupo_69363" data-name="Grupo 69363" transform="translate(2838 11350)">
+    <g id="Grupo_69362" data-name="Grupo 69362" transform="translate(-2838 -11350)">
+      <path id="Trazado_118590" data-name="Trazado 118590" d="M375.5,913.64H1661.678c11.55,0,20.913,11.95,20.913,26.706v667.645c0,14.749-9.363,26.706-20.913,26.706H375.5c-11.55,0-20.913-11.956-20.913-26.706V940.346C354.591,925.591,363.954,913.64,375.5,913.64Z" transform="translate(-354.591 -913.639)" fill="none"/>
+      <path id="Intersección_4" data-name="Intersección 4" d="M20,526.8a20,20,0,0,1-20-20V0L526.8,526.8Z" transform="translate(526.796 0.001) rotate(90)" fill="url(#linear-gradient)"/>
+      <path id="Intersección_2" data-name="Intersección 2" d="M184.848,74.2C90.108,31.828,31,48.07,0,73.211V19.5A19.5,19.5,0,0,1,19.5,0H496.731C336.763,47.517,312.08,95.8,260.221,95.807,241.324,95.808,218.823,89.4,184.848,74.2Z" transform="translate(0 0.001)" fill="#607b82"/>
+      <path id="Trazado_118990" data-name="Trazado 118990" d="M-12279.574-11630h1010.061l-564.322,564.32Z" transform="translate(12597.515 11630.004)" fill="url(#linear-gradient-2)"/>
+      <path id="Intersección_6" data-name="Intersección 6" d="M184.847,47.813C90.108,1.1,31,19.005,0,46.721V19.5A19.5,19.5,0,0,1,19.5,0H409.355C324.641,39.17,300.717,71.628,260.221,71.63,241.323,71.631,218.822,64.564,184.847,47.813Z" transform="translate(170.71 0)" fill="#607b82" opacity="0.113"/>
+      <path id="Intersección_7" data-name="Intersección 7" d="M184.847,35.054C90.108.806,31,13.934,0,34.253V19.5A19.5,19.5,0,0,1,19.5,0H409.358C324.643,28.716,300.716,52.513,260.22,52.515,241.322,52.516,218.822,47.335,184.847,35.054Z" transform="translate(363.581 0.001)" fill="#607b82" opacity="0.113"/>
+    </g>
+    <rect id="Rectángulo_7631" data-name="Rectángulo 7631" width="24.78" height="24.78" transform="translate(-2838 -11350)" fill="#607b82"/>
+  </g>
+</svg>

@@ -1,4 +1,4 @@
-# **Frontend con HTML5, CSS y JSS**
+# **Tecnologías para el desarrollo de aplicaciones Web**
 
 ## **Enlace GitHubPages**
 

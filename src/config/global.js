@@ -1,6 +1,7 @@
 export default {
   global: {
-    componenteFormativo: '<em>Frontend</em> con HTML5, CSS y JSS',
+    componenteFormativo:
+      'Tecnologías para el desarrollo de aplicaciones <em>Web</em>',
     descripcionCurso:
       'Este componente formativo pretende mostrar el desarrollo <em>web</em> utilizando lenguajes como HTML5, CSS y JSS; explicando, además, sus funciones, componentes y semántica junto a las bondades que brinda trabajar desarrollos independientes de la parte del servidor y para el usuario, llamado <em>frontend</em>. Mostrará, también, cómo mezclando estos lenguajes se pueden crear grandes y complejos desarrollos <em>web</em>. ',
     imagenBannerPrincipal: require('@/assets/curso/banner-princiapal.svg'),
@@ -124,11 +125,6 @@ export default {
         icono: 'fas fa-book',
         titulo: 'Referencias bibliográficas',
         nombreRuta: 'referencias',
-      },
-      {
-        icono: 'fas fa-download',
-        titulo: 'Descargar material',
-        download: 'downloads/material.zip',
       },
       {
         icono: 'far fa-registered',

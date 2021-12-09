@@ -1,1 +1,1 @@
-module.exports = 'Frontend con HTML5, CSS y JSS'
+module.exports = 'Tecnologías para el desarrollo de aplicaciones Web'
